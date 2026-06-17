@@ -1,0 +1,344 @@
+fileFormatVersion: 2
+guid: 4963797043c45ac46a8d6914f4dc61a5
+timeCreated: 1507289600
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Butterfly01_Wing_Left_a
+    100004: Butterfly01_Wing_Left_b
+    100006: Butterfly01_Wing_Left_c
+    100008: Butterfly01_Wing_Right__b
+    100010: Butterfly01_Wing_Right__c
+    100012: Butterfly01_Wing_Right_a
+    100014: Butterfly02
+    100016: Butterfly02_Wing_Left_a
+    100018: Butterfly02_Wing_Left_b
+    100020: Butterfly02_Wing_Left_c
+    100022: Butterfly02_Wing_Right__b
+    100024: Butterfly02_Wing_Right__c
+    100026: Butterfly02_Wing_Right_a
+    100028: Butterfly03
+    100030: Butterfly03_Wing_Left_a
+    100032: Butterfly03_Wing_Left_b
+    100034: Butterfly03_Wing_Left_c
+    100036: Butterfly03_Wing_Right__b
+    100038: Butterfly03_Wing_Right__c
+    100040: Butterfly03_Wing_Right_a
+    100042: Butterfly04
+    100044: Butterfly04_Wing_Left_a
+    100046: Butterfly04_Wing_Left_b
+    100048: Butterfly04_Wing_Left_c
+    100050: Butterfly04_Wing_Right__b
+    100052: Butterfly04_Wing_Right__c
+    100054: Butterfly04_Wing_Right_a
+    100056: Butterfly05
+    100058: Butterfly05_Wing_Left_a
+    100060: Butterfly05_Wing_Left_b
+    100062: Butterfly05_Wing_Left_c
+    100064: Butterfly05_Wing_Right__b
+    100066: Butterfly05_Wing_Right__c
+    100068: Butterfly05_Wing_Right_a
+    100070: Buttrfly01
+    100072: Capac
+    100074: CapacTop
+    100076: CTRL_Butterfly01
+    100078: CTRL_Butterfly02
+    100080: CTRL_Butterfly03
+    100082: CTRL_Butterfly04
+    100084: CTRL_Butterfly05
+    100086: CutieBaza
+    100088: CutieMisloc
+    100090: CutieSus
+    100092: FundaBaza
+    100094: FundaTop
+    100096: Gift_box_special_base
+    100098: Gift_box_special_butterfly
+    100100: Gift_box_special_cover
+    100102: Master
+    400000: //RootNode
+    400002: Butterfly01_Wing_Left_a
+    400004: Butterfly01_Wing_Left_b
+    400006: Butterfly01_Wing_Left_c
+    400008: Butterfly01_Wing_Right__b
+    400010: Butterfly01_Wing_Right__c
+    400012: Butterfly01_Wing_Right_a
+    400014: Butterfly02
+    400016: Butterfly02_Wing_Left_a
+    400018: Butterfly02_Wing_Left_b
+    400020: Butterfly02_Wing_Left_c
+    400022: Butterfly02_Wing_Right__b
+    400024: Butterfly02_Wing_Right__c
+    400026: Butterfly02_Wing_Right_a
+    400028: Butterfly03
+    400030: Butterfly03_Wing_Left_a
+    400032: Butterfly03_Wing_Left_b
+    400034: Butterfly03_Wing_Left_c
+    400036: Butterfly03_Wing_Right__b
+    400038: Butterfly03_Wing_Right__c
+    400040: Butterfly03_Wing_Right_a
+    400042: Butterfly04
+    400044: Butterfly04_Wing_Left_a
+    400046: Butterfly04_Wing_Left_b
+    400048: Butterfly04_Wing_Left_c
+    400050: Butterfly04_Wing_Right__b
+    400052: Butterfly04_Wing_Right__c
+    400054: Butterfly04_Wing_Right_a
+    400056: Butterfly05
+    400058: Butterfly05_Wing_Left_a
+    400060: Butterfly05_Wing_Left_b
+    400062: Butterfly05_Wing_Left_c
+    400064: Butterfly05_Wing_Right__b
+    400066: Butterfly05_Wing_Right__c
+    400068: Butterfly05_Wing_Right_a
+    400070: Buttrfly01
+    400072: Capac
+    400074: CapacTop
+    400076: CTRL_Butterfly01
+    400078: CTRL_Butterfly02
+    400080: CTRL_Butterfly03
+    400082: CTRL_Butterfly04
+    400084: CTRL_Butterfly05
+    400086: CutieBaza
+    400088: CutieMisloc
+    400090: CutieSus
+    400092: FundaBaza
+    400094: FundaTop
+    400096: Gift_box_special_base
+    400098: Gift_box_special_butterfly
+    400100: Gift_box_special_cover
+    400102: Master
+    4300000: Gift_box_special_cover
+    4300002: Gift_box_special_base
+    4300004: Buttrfly01
+    4300006: Butterfly02
+    4300008: Butterfly03
+    4300010: Butterfly04
+    4300012: Butterfly05
+    7400000: Out
+    7400002: Drop
+    7400004: Out0
+    9500000: //RootNode
+    13700000: Butterfly02
+    13700002: Butterfly03
+    13700004: Butterfly04
+    13700006: Butterfly05
+    13700008: Buttrfly01
+    13700010: Gift_box_special_base
+    13700012: Gift_box_special_cover
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 01 - Default
+    second: {fileID: 2100000, guid: 3df934af031274f458de38e85ca41294, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: Master
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Out
+      takeName: Take 001
+      firstFrame: 150
+      lastFrame: 205
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Butterfly02
+        weight: 1
+      - path: Butterfly03
+        weight: 1
+      - path: Butterfly04
+        weight: 1
+      - path: Butterfly05
+        weight: 1
+      - path: Buttrfly01
+        weight: 1
+      - path: Gift_box_special_base
+        weight: 1
+      - path: Gift_box_special_butterfly
+        weight: 1
+      - path: Gift_box_special_cover
+        weight: 1
+      - path: Master
+        weight: 1
+      - path: Master/CTRL_Butterfly01
+        weight: 1
+      - path: Master/CTRL_Butterfly01/Butterfly01_Wing_Left_a
+        weight: 1
+      - path: Master/CTRL_Butterfly01/Butterfly01_Wing_Left_a/Butterfly01_Wing_Left_b
+        weight: 1
+      - path: Master/CTRL_Butterfly01/Butterfly01_Wing_Left_a/Butterfly01_Wing_Left_b/Butterfly01_Wing_Left_c
+        weight: 1
+      - path: Master/CTRL_Butterfly01/Butterfly01_Wing_Right_a
+        weight: 1
+      - path: Master/CTRL_Butterfly01/Butterfly01_Wing_Right_a/Butterfly01_Wing_Right__b
+        weight: 1
+      - path: Master/CTRL_Butterfly01/Butterfly01_Wing_Right_a/Butterfly01_Wing_Right__b/Butterfly01_Wing_Right__c
+        weight: 1
+      - path: Master/CTRL_Butterfly02
+        weight: 1
+      - path: Master/CTRL_Butterfly02/Butterfly02_Wing_Left_a
+        weight: 1
+      - path: Master/CTRL_Butterfly02/Butterfly02_Wing_Left_a/Butterfly02_Wing_Left_b
+        weight: 1
+      - path: Master/CTRL_Butterfly02/Butterfly02_Wing_Left_a/Butterfly02_Wing_Left_b/Butterfly02_Wing_Left_c
+        weight: 1
+      - path: Master/CTRL_Butterfly02/Butterfly02_Wing_Right_a
+        weight: 1
+      - path: Master/CTRL_Butterfly02/Butterfly02_Wing_Right_a/Butterfly02_Wing_Right__b
+        weight: 1
+      - path: Master/CTRL_Butterfly02/Butterfly02_Wing_Right_a/Butterfly02_Wing_Right__b/Butterfly02_Wing_Right__c
+        weight: 1
+      - path: Master/CTRL_Butterfly03
+        weight: 1
+      - path: Master/CTRL_Butterfly03/Butterfly03_Wing_Left_a
+        weight: 1
+      - path: Master/CTRL_Butterfly03/Butterfly03_Wing_Left_a/Butterfly03_Wing_Left_b
+        weight: 1
+      - path: Master/CTRL_Butterfly03/Butterfly03_Wing_Left_a/Butterfly03_Wing_Left_b/Butterfly03_Wing_Left_c
+        weight: 1
+      - path: Master/CTRL_Butterfly03/Butterfly03_Wing_Right_a
+        weight: 1
+      - path: Master/CTRL_Butterfly03/Butterfly03_Wing_Right_a/Butterfly03_Wing_Right__b
+        weight: 1
+      - path: Master/CTRL_Butterfly03/Butterfly03_Wing_Right_a/Butterfly03_Wing_Right__b/Butterfly03_Wing_Right__c
+        weight: 1
+      - path: Master/CTRL_Butterfly04
+        weight: 1
+      - path: Master/CTRL_Butterfly04/Butterfly04_Wing_Left_a
+        weight: 1
+      - path: Master/CTRL_Butterfly04/Butterfly04_Wing_Left_a/Butterfly04_Wing_Left_b
+        weight: 1
+      - path: Master/CTRL_Butterfly04/Butterfly04_Wing_Left_a/Butterfly04_Wing_Left_b/Butterfly04_Wing_Left_c
+        weight: 1
+      - path: Master/CTRL_Butterfly04/Butterfly04_Wing_Right_a
+        weight: 1
+      - path: Master/CTRL_Butterfly04/Butterfly04_Wing_Right_a/Butterfly04_Wing_Right__b
+        weight: 1
+      - path: Master/CTRL_Butterfly04/Butterfly04_Wing_Right_a/Butterfly04_Wing_Right__b/Butterfly04_Wing_Right__c
+        weight: 1
+      - path: Master/CTRL_Butterfly05
+        weight: 1
+      - path: Master/CTRL_Butterfly05/Butterfly05_Wing_Left_a
+        weight: 1
+      - path: Master/CTRL_Butterfly05/Butterfly05_Wing_Left_a/Butterfly05_Wing_Left_b
+        weight: 1
+      - path: Master/CTRL_Butterfly05/Butterfly05_Wing_Left_a/Butterfly05_Wing_Left_b/Butterfly05_Wing_Left_c
+        weight: 1
+      - path: Master/CTRL_Butterfly05/Butterfly05_Wing_Right_a
+        weight: 1
+      - path: Master/CTRL_Butterfly05/Butterfly05_Wing_Right_a/Butterfly05_Wing_Right__b
+        weight: 1
+      - path: Master/CTRL_Butterfly05/Butterfly05_Wing_Right_a/Butterfly05_Wing_Right__b/Butterfly05_Wing_Right__c
+        weight: 1
+      - path: Master/CutieBaza
+        weight: 1
+      - path: Master/CutieBaza/CutieMisloc
+        weight: 1
+      - path: Master/CutieBaza/CutieMisloc/CutieSus
+        weight: 1
+      - path: Master/CutieBaza/CutieMisloc/CutieSus/Capac
+        weight: 1
+      - path: Master/CutieBaza/CutieMisloc/CutieSus/Capac/CapacTop
+        weight: 1
+      - path: Master/CutieBaza/CutieMisloc/CutieSus/Capac/CapacTop/FundaBaza
+        weight: 1
+      - path: Master/CutieBaza/CutieMisloc/CutieSus/Capac/CapacTop/FundaTop
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 0
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 2
+    tangentImportMode: 2
+    normalCalculationMode: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

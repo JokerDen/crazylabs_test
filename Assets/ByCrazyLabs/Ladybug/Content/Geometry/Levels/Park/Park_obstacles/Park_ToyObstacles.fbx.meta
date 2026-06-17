@@ -1,0 +1,136 @@
+fileFormatVersion: 2
+guid: 55ab3fed68cd3f44d99c13a9fa1dc9e9
+timeCreated: 1509379826
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: ParkObstacles_Cubes_VerticalSmall
+    100004: ParkObstacles_CubesGate
+    100006: ParkObstacles_CubesHorizontal
+    100008: ParkObstacles_CubesPiramid
+    100010: ParkObstacles_CubesVertical
+    100012: ParkObstacles_MonkeyBar_High
+    100014: ParkObstacles_MonkeyBar_Low
+    100016: ParkObstacles_MonkeyBar_Small
+    100018: ParkObstacles_PopcornStand
+    100020: ParkObstacles_SeeSaw
+    100022: ParkObstacles_BushFence
+    100024: ParkObstacles_RoundBush
+    400000: //RootNode
+    400002: ParkObstacles_Cubes_VerticalSmall
+    400004: ParkObstacles_CubesGate
+    400006: ParkObstacles_CubesHorizontal
+    400008: ParkObstacles_CubesPiramid
+    400010: ParkObstacles_CubesVertical
+    400012: ParkObstacles_MonkeyBar_High
+    400014: ParkObstacles_MonkeyBar_Low
+    400016: ParkObstacles_MonkeyBar_Small
+    400018: ParkObstacles_PopcornStand
+    400020: ParkObstacles_SeeSaw
+    400022: ParkObstacles_BushFence
+    400024: ParkObstacles_RoundBush
+    2300000: //RootNode
+    2300002: ParkObstacles_Cubes_VerticalSmall
+    2300004: ParkObstacles_CubesGate
+    2300006: ParkObstacles_CubesHorizontal
+    2300008: ParkObstacles_CubesPiramid
+    2300010: ParkObstacles_CubesVertical
+    2300012: ParkObstacles_MonkeyBar_High
+    2300014: ParkObstacles_MonkeyBar_Low
+    2300016: ParkObstacles_MonkeyBar_Small
+    2300018: ParkObstacles_PopcornStand
+    2300020: ParkObstacles_SeeSaw
+    2300022: ParkObstacles_BushFence
+    2300024: ParkObstacles_RoundBush
+    3300000: //RootNode
+    3300002: ParkObstacles_Cubes_VerticalSmall
+    3300004: ParkObstacles_CubesGate
+    3300006: ParkObstacles_CubesHorizontal
+    3300008: ParkObstacles_CubesPiramid
+    3300010: ParkObstacles_CubesVertical
+    3300012: ParkObstacles_MonkeyBar_High
+    3300014: ParkObstacles_MonkeyBar_Low
+    3300016: ParkObstacles_MonkeyBar_Small
+    3300018: ParkObstacles_PopcornStand
+    3300020: ParkObstacles_SeeSaw
+    3300022: ParkObstacles_BushFence
+    3300024: ParkObstacles_RoundBush
+    4300000: ParkObstacles_3dCoat
+    4300002: ParkObstacles_Cubes_VerticalSmall
+    4300004: ParkObstacles_PopcornStand
+    4300006: ParkObstacles_CubesHorizontal
+    4300008: ParkObstacles_MonkeyBar_Small
+    4300010: ParkObstacles_MonkeyBar_Low
+    4300012: ParkObstacles_SeeSaw
+    4300014: ParkObstacles_CubesVertical
+    4300016: ParkObstacles_CubesGate
+    4300018: ParkObstacles_MonkeyBar_High
+    4300020: ParkObstacles_CubesPiramid
+    4300022: ParkObstacles_BushFence
+    4300024: ParkObstacles_RoundBush
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

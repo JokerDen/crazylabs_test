@@ -1,0 +1,135 @@
+fileFormatVersion: 2
+guid: 494f029434673734eba4563902821e73
+timeCreated: 1509374280
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Bus
+    100002: BusWheel_Back_Left
+    100004: BusWheel_Back_Right
+    100006: BusWheel_Front_Left
+    100008: BusWheel_Front_Right
+    100010: //RootNode
+    100012: Baked Geometry
+    100014: Surf(Bus_base1 (Material))
+    100016: Surf(Bus_parts (Material))
+    100018: Surf(Bus_parts (Material)) (2)
+    100020: Surf(Bus_parts (Material)) (3)
+    100022: Surf(Bus_parts (Material)) (4)
+    100024: Surf(Bus_parts (Material)) (5)
+    100026: Surf(Bus_windows (Material))
+    400000: Bus
+    400002: BusWheel_Back_Left
+    400004: BusWheel_Back_Right
+    400006: BusWheel_Front_Left
+    400008: BusWheel_Front_Right
+    400010: //RootNode
+    400012: Baked Geometry
+    400014: Surf(Bus_base1 (Material))
+    400016: Surf(Bus_parts (Material))
+    400018: Surf(Bus_parts (Material)) (2)
+    400020: Surf(Bus_parts (Material)) (3)
+    400022: Surf(Bus_parts (Material)) (4)
+    400024: Surf(Bus_parts (Material)) (5)
+    400026: Surf(Bus_windows (Material))
+    2300000: Bus
+    2300002: BusWheel_Back_Left
+    2300004: BusWheel_Back_Right
+    2300006: BusWheel_Front_Left
+    2300008: BusWheel_Front_Right
+    2300010: Surf(Bus_base1 (Material))
+    2300012: Surf(Bus_parts (Material))
+    2300014: Surf(Bus_parts (Material)) (2)
+    2300016: Surf(Bus_parts (Material)) (3)
+    2300018: Surf(Bus_parts (Material)) (4)
+    2300020: Surf(Bus_parts (Material)) (5)
+    2300022: Surf(Bus_windows (Material))
+    3300000: Bus
+    3300002: BusWheel_Back_Left
+    3300004: BusWheel_Back_Right
+    3300006: BusWheel_Front_Left
+    3300008: BusWheel_Front_Right
+    3300010: Surf(Bus_base1 (Material))
+    3300012: Surf(Bus_parts (Material))
+    3300014: Surf(Bus_parts (Material)) (2)
+    3300016: Surf(Bus_parts (Material)) (3)
+    3300018: Surf(Bus_parts (Material)) (4)
+    3300020: Surf(Bus_parts (Material)) (5)
+    3300022: Surf(Bus_windows (Material))
+    4300000: BusWheel_Front_Left
+    4300002: BusWheel_Back_Left
+    4300004: BusWheel_Front_Right
+    4300006: Bus
+    4300008: BusWheel_Back_Right
+    4300010: Surf(Bus_parts (Material)) (5)
+    4300012: Surf(Bus_base1 (Material))
+    4300014: Surf(Bus_windows (Material))
+    4300016: Surf(Bus_parts (Material)) (4)
+    4300018: Surf(Bus_parts (Material)) (3)
+    4300020: Surf(Bus_parts (Material)) (2)
+    4300022: Surf(Bus_parts (Material))
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

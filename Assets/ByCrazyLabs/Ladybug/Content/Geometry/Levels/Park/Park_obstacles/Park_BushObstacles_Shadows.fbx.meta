@@ -1,0 +1,128 @@
+fileFormatVersion: 2
+guid: c3dc0d678254b614eae51ee87309a45d
+timeCreated: 1511346922
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: ParkObstacles_Cubes_VerticalSmall_Shadow
+    100004: ParkObstacles_CubesGate_Shadow
+    100006: ParkObstacles_CubesHorizontal_Shadow
+    100008: ParkObstacles_CubesPiramid_Shadow
+    100010: ParkObstacles_CubesVertical_Shadow
+    100012: ParkObstacles_MonkeyBar_High_Shadow
+    100014: ParkObstacles_MonkeyBar_Low_Shadow
+    100016: ParkObstacles_MonkeyBar_Small_Shadow
+    100018: ParkObstacles_PopcornStand_Shadow
+    100020: ParkObstacles_SeeSaw_Shadow
+    100022: ParkObstacles_Wall_Shadow
+    400000: //RootNode
+    400002: ParkObstacles_Cubes_VerticalSmall_Shadow
+    400004: ParkObstacles_CubesGate_Shadow
+    400006: ParkObstacles_CubesHorizontal_Shadow
+    400008: ParkObstacles_CubesPiramid_Shadow
+    400010: ParkObstacles_CubesVertical_Shadow
+    400012: ParkObstacles_MonkeyBar_High_Shadow
+    400014: ParkObstacles_MonkeyBar_Low_Shadow
+    400016: ParkObstacles_MonkeyBar_Small_Shadow
+    400018: ParkObstacles_PopcornStand_Shadow
+    400020: ParkObstacles_SeeSaw_Shadow
+    400022: ParkObstacles_Wall_Shadow
+    2300000: ParkObstacles_Cubes_VerticalSmall_Shadow
+    2300002: ParkObstacles_CubesGate_Shadow
+    2300004: ParkObstacles_CubesHorizontal_Shadow
+    2300006: ParkObstacles_CubesPiramid_Shadow
+    2300008: ParkObstacles_CubesVertical_Shadow
+    2300010: ParkObstacles_MonkeyBar_High_Shadow
+    2300012: ParkObstacles_MonkeyBar_Low_Shadow
+    2300014: ParkObstacles_MonkeyBar_Small_Shadow
+    2300016: ParkObstacles_PopcornStand_Shadow
+    2300018: ParkObstacles_SeeSaw_Shadow
+    2300020: ParkObstacles_Wall_Shadow
+    3300000: ParkObstacles_Cubes_VerticalSmall_Shadow
+    3300002: ParkObstacles_CubesGate_Shadow
+    3300004: ParkObstacles_CubesHorizontal_Shadow
+    3300006: ParkObstacles_CubesPiramid_Shadow
+    3300008: ParkObstacles_CubesVertical_Shadow
+    3300010: ParkObstacles_MonkeyBar_High_Shadow
+    3300012: ParkObstacles_MonkeyBar_Low_Shadow
+    3300014: ParkObstacles_MonkeyBar_Small_Shadow
+    3300016: ParkObstacles_PopcornStand_Shadow
+    3300018: ParkObstacles_SeeSaw_Shadow
+    3300020: ParkObstacles_Wall_Shadow
+    4300000: ParkObstacles_SeeSaw_Shadow
+    4300002: ParkObstacles_CubesGate_Shadow
+    4300004: ParkObstacles_PopcornStand_Shadow
+    4300006: ParkObstacles_Cubes_VerticalSmall_Shadow
+    4300008: ParkObstacles_MonkeyBar_High_Shadow
+    4300010: ParkObstacles_CubesPiramid_Shadow
+    4300012: ParkObstacles_MonkeyBar_Low_Shadow
+    4300014: ParkObstacles_CubesVertical_Shadow
+    4300016: ParkObstacles_Wall_Shadow
+    4300018: ParkObstacles_CubesHorizontal_Shadow
+    4300020: ParkObstacles_MonkeyBar_Small_Shadow
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

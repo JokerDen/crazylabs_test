@@ -1,0 +1,161 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Atlas_MenuCommon
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings:
+    - serializedVersion: 3
+      m_BuildTarget: Android
+      m_MaxTextureSize: 2048
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: 47
+      m_TextureCompression: 1
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 1
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 0
+      enableTightPacking: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 102900000, guid: aff2e15e5731af94d88cbd1163772034, type: 3}
+    - {fileID: 102900000, guid: e5613046b31e3e14ba006733dd8b5e48, type: 3}
+    - {fileID: 102900000, guid: 0b713d59b8078430e89ad558cf9355b7, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: f7402a50fee28a542a95b8ee859fe7e1, type: 3}
+  - {fileID: 21300000, guid: 7363b260b99fb8443ba5c83929d89ffc, type: 3}
+  - {fileID: 21300000, guid: afbca270f103a463e9e325836468483e, type: 3}
+  - {fileID: 21300000, guid: 96c16a709e8134a6a9d5d0cbfe8cb7df, type: 3}
+  - {fileID: 21300000, guid: 96882da08ccb50145803b4a3e368a25b, type: 3}
+  - {fileID: 21300000, guid: 20d2dac00c49a9b479566d9f4a880fc4, type: 3}
+  - {fileID: 21300000, guid: dcfcb1013b46f4eb5bb2cb004e4671b1, type: 3}
+  - {fileID: 21300000, guid: 75e0b4113b8aa4a7b953f3ddbeea19e9, type: 3}
+  - {fileID: 21300000, guid: 621042b10a5c149e5a984f6cb58fe8d3, type: 3}
+  - {fileID: 21300000, guid: d10220628fae5e844865880647e728d3, type: 3}
+  - {fileID: 21300000, guid: 202e99a209fe74138b5f6a4ae1f6c61c, type: 3}
+  - {fileID: 21300000, guid: e7b318d2cd5ae7c4297beb4b130e9cd0, type: 3}
+  - {fileID: 21300000, guid: 92667513607859341abaf59d0d7672d5, type: 3}
+  - {fileID: 21300000, guid: e825fe13333a08f47a86b70fe190495b, type: 3}
+  - {fileID: 21300000, guid: c19cf65356421ed4aa38913a362670a0, type: 3}
+  - {fileID: 21300000, guid: 1e98516335e4f45ab9e981088f0abc77, type: 3}
+  - {fileID: 21300000, guid: 9d6255f3ca2974fe1a1c91834d7c2bc1, type: 3}
+  - {fileID: 21300000, guid: d7510e04a71eb4f3da6a72db94e569b5, type: 3}
+  - {fileID: 21300000, guid: ab39d264a3a1e4150ad30019cfff9905, type: 3}
+  - {fileID: 21300000, guid: d2a524647375f43608986bdbc352ca03, type: 3}
+  - {fileID: 21300000, guid: 0a7a4284ff3a44ad1b4de73400164e0c, type: 3}
+  - {fileID: 21300000, guid: cad860c447bff4eb09865c6b6e7451e2, type: 3}
+  - {fileID: 21300000, guid: 16713ad47b74640a7ba4c456d977cba8, type: 3}
+  - {fileID: 21300000, guid: 49ef06f450b726f49ae5ffedb7ad6237, type: 3}
+  - {fileID: 21300000, guid: 42fda8a5ddb71084a818c990e367fee0, type: 3}
+  - {fileID: 21300000, guid: e5b689e5a68d924478727f00171138da, type: 3}
+  - {fileID: 21300000, guid: 27a999f551982cd4da0cecd1ed9a639d, type: 3}
+  - {fileID: 21300000, guid: a17c29166afee7348b514d748e584743, type: 3}
+  - {fileID: 21300000, guid: d84a9e16bd0a947c28c6019cd0348b51, type: 3}
+  - {fileID: 21300000, guid: 6044ac56cf0088646aca7d93da55b4b7, type: 3}
+  - {fileID: 21300000, guid: 1ad5c8a6db703429a94d09ca6e78a4d2, type: 3}
+  - {fileID: 21300000, guid: ab58fda60dfe54545ab52714e481d036, type: 3}
+  - {fileID: 21300000, guid: e5853ef6024c2c74aad648f2f1afaba9, type: 3}
+  - {fileID: 21300000, guid: c46a402844600bb489b612cc22d90a5d, type: 3}
+  - {fileID: 21300000, guid: 77c61f2864a041b41950aaf563e85adb, type: 3}
+  - {fileID: 21300000, guid: d4dfdb58b6347e746aa54ae7e7f80062, type: 3}
+  - {fileID: 21300000, guid: 2ebc2178479b7244da545b709190d9d3, type: 3}
+  - {fileID: 21300000, guid: 17f578290b503184c95305f894da81b8, type: 3}
+  - {fileID: 21300000, guid: cbd27739bcc7c394b9b0aa7d48745f1e, type: 3}
+  - {fileID: 21300000, guid: 401bfe4a0d82b674f92b8535d738bd2c, type: 3}
+  - {fileID: 21300000, guid: cc041f8a4093a40b7bf9b53bc7f8023e, type: 3}
+  - {fileID: 21300000, guid: 1e9e4b3b3a6b0be46bacf612cac5648d, type: 3}
+  - {fileID: 21300000, guid: 5e81f26b5409b435191de87558699a8d, type: 3}
+  - {fileID: 21300000, guid: 2be6ff6b18732e74eaceda0db0582417, type: 3}
+  - {fileID: 21300000, guid: 2b6533bbc8e021b41b7cbec45618d1f0, type: 3}
+  - {fileID: 21300000, guid: 55d9b85d24f340d4d9818c22c26d8569, type: 3}
+  - {fileID: 21300000, guid: 908eab6db3f72a4469dbfa8f91e33841, type: 3}
+  - {fileID: 21300000, guid: 7a166bad27cea418aa770746ea5d1160, type: 3}
+  - {fileID: 21300000, guid: eb73b67e5a4504e47a1c223553887eac, type: 3}
+  - {fileID: 21300000, guid: 5fba2cbf9b742b24496b75449faf60dd, type: 3}
+  - {fileID: 21300000, guid: 572c9ccfc1aa742449ec73b932a367f5, type: 3}
+  - {fileID: 21300000, guid: 333fe1ff91229554eacaf910729f2151, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - Glow_05
+  - button_classic_blue_default_slim
+  - iconReplay
+  - radial_slider_empty
+  - button_close
+  - button_classic_orange_pressed_slim
+  - iconCrown
+  - iconNext
+  - map_economy_widget_bar_white
+  - button_classic_disabled
+  - btn_freeLBs
+  - map_button_pressed
+  - progress_bar_checkpoint_reached
+  - circle-512
+  - progress_bar_full
+  - button_classic_greylight_default_slim
+  - andy_gradient_01
+  - close_btn
+  - button_classic_green_default
+  - button_classic_disabled_default
+  - btn_green_subscription
+  - radial_slider_full
+  - btnGreenRevive
+  - button_classic_orange_default_slim
+  - score
+  - button_classic_blue_default
+  - button_classic_orange_default
+  - comic_frame_01
+  - barVipMissionHint
+  - andy_gradient_rot
+  - btnVipMissionNoStars
+  - button_classic_blue_pressed
+  - map_button_settings
+  - button_classic_orange_pressed
+  - comic_frame_03
+  - button_classic_blue_pressed_slim
+  - button_checkmark_01
+  - progress_bar_checkpoint
+  - progress_bar_marker
+  - andy_gradient
+  - button_classic_green_pressed
+  - rounded-rectangle-512
+  - vipMissionStars
+  - WhiteBox
+  - progress_bar_checkpoint_effect_full
+  - progress_bar_empty
+  - map_economy_widget_button_02
+  - button_classic_gray_default_slim
+  - btn_grey_subscription
+  - map_button_default
+  - button_classic_lightblue_default
+  - map_economy_widget_bar
+  m_RenderDataMap: {}
+  m_Tag: Atlas_MenuCommon
+  m_IsVariant: 0

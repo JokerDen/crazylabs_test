@@ -1,0 +1,835 @@
+fileFormatVersion: 2
+guid: e56d8ab7300efd042b1f9da1c52aaf07
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: AdrienMansion_UpperFloor
+    100002: AdrienMansion_UpperFloor (2)
+    100004: AdrienMansion_UpperFloor (3)
+    100006: Anubis
+    100008: Artefact
+    100010: Banner
+    100012: Cat
+    100014: CHunk01
+    100016: Chunk01
+    100018: Chunk01 (2)
+    100020: Chunk01_Mesh
+    100022: Chunk02
+    100024: Chunk02 (2)
+    100026: Chunk02 (3)
+    100028: CHunk02_mesh
+    100030: CHunk03
+    100032: Chunk03
+    100034: Chunk03 (2)
+    100036: Chunk03_mesh
+    100038: CHunk04
+    100040: Chunk04
+    100042: Chunk04 (2)
+    100044: Chunk04_Mesh
+    100046: Chunk04_Road
+    100048: Chunk04_Roof
+    100050: CHunk04_SideProps
+    100052: Chunk04_Walls
+    100054: Chunk04Geo
+    100056: Dog
+    100058: Fence
+    100060: Fence_02
+    100062: Fence_02 (2)
+    100064: Group Locator
+    100066: Horus
+    100068: Info
+    100070: Mesh
+    100072: Mesh (10)
+    100074: Mesh (100)
+    100076: Mesh (101)
+    100078: Mesh (102)
+    100080: Mesh (103)
+    100082: Mesh (104)
+    100084: Mesh (105)
+    100086: Mesh (106)
+    100088: Mesh (107)
+    100090: Mesh (108)
+    100092: Mesh (11)
+    100094: Mesh (12)
+    100096: Mesh (13)
+    100098: Mesh (14)
+    100100: Mesh (15)
+    100102: Mesh (16)
+    100104: Mesh (17)
+    100106: Mesh (18)
+    100108: Mesh (19)
+    100110: Mesh (2)
+    100112: Mesh (20)
+    100114: Mesh (21)
+    100116: Mesh (22)
+    100118: Mesh (23)
+    100120: Mesh (24)
+    100122: Mesh (25)
+    100124: Mesh (26)
+    100126: Mesh (27)
+    100128: Mesh (28)
+    100130: Mesh (29)
+    100132: Mesh (3)
+    100134: Mesh (30)
+    100136: Mesh (31)
+    100138: Mesh (32)
+    100140: Mesh (33)
+    100142: Mesh (34)
+    100144: Mesh (35)
+    100146: Mesh (36)
+    100148: Mesh (37)
+    100150: Mesh (38)
+    100152: Mesh (39)
+    100154: Mesh (4)
+    100156: Mesh (40)
+    100158: Mesh (41)
+    100160: Mesh (42)
+    100162: Mesh (5)
+    100164: Mesh (53)
+    100166: Mesh (54)
+    100168: Mesh (55)
+    100170: Mesh (57)
+    100172: Mesh (58)
+    100174: Mesh (59)
+    100176: Mesh (6)
+    100178: Mesh (60)
+    100180: Mesh (61)
+    100182: Mesh (62)
+    100184: Mesh (63)
+    100186: Mesh (64)
+    100188: Mesh (65)
+    100190: Mesh (66)
+    100192: Mesh (67)
+    100194: Mesh (68)
+    100196: Mesh (69)
+    100198: Mesh (7)
+    100200: Mesh (70)
+    100202: Mesh (71)
+    100204: Mesh (72)
+    100206: Mesh (73)
+    100208: Mesh (74)
+    100210: Mesh (75)
+    100212: Mesh (76)
+    100214: Mesh (77)
+    100216: Mesh (78)
+    100218: Mesh (79)
+    100220: Mesh (8)
+    100222: Mesh (80)
+    100224: Mesh (81)
+    100226: Mesh (82)
+    100228: Mesh (83)
+    100230: Mesh (84)
+    100232: Mesh (85)
+    100234: Mesh (86)
+    100236: Mesh (87)
+    100238: Mesh (88)
+    100240: Mesh (89)
+    100242: Mesh (9)
+    100244: Mesh (90)
+    100246: Mesh (91)
+    100248: Mesh (92)
+    100250: Mesh (93)
+    100252: Mesh (94)
+    100254: Mesh (95)
+    100256: Mesh (96)
+    100258: Mesh (97)
+    100260: Mesh (98)
+    100262: Mesh (99)
+    100264: Obstacle_Banner
+    100266: Obstacle_Cat
+    100268: Obstacle_Dog
+    100270: Obstacle_Fence
+    100272: Obstacle_FenceCurved
+    100274: Obstacle_Sarcophagus
+    100276: Obstacle_Sarcophagus_slidable
+    100278: Obstacle_Sarcophagus_vertical
+    100280: Obstacle_Sphinx
+    100282: Obstacle_Tomb
+    100284: Obstacles
+    100286: //RootNode
+    100288: Pillars
+    100290: Pillars (10)
+    100292: Pillars (11)
+    100294: Pillars (12)
+    100296: Pillars (13)
+    100298: Pillars (14)
+    100300: Pillars (2)
+    100302: Pillars (3)
+    100304: Pillars (4)
+    100306: Pillars (5)
+    100308: Pillars (6)
+    100310: Pillars (7)
+    100312: Pillars (8)
+    100314: Pillars (9)
+    100316: Sarcophagus_dynamic
+    100318: Sarcophagus_slidable
+    100320: Scarab
+    100322: School_GymObstacle
+    100324: SideEnviro
+    100326: SideEnviro (2)
+    100328: Sphinx
+    100330: Statues
+    100332: Table
+    100334: Texture Group
+    100336: Tomb
+    100338: Tomb_02
+    100340: Vase
+    100342: Visual
+    400000: AdrienMansion_UpperFloor
+    400002: AdrienMansion_UpperFloor (2)
+    400004: AdrienMansion_UpperFloor (3)
+    400006: Anubis
+    400008: Artefact
+    400010: Banner
+    400012: Cat
+    400014: CHunk01
+    400016: Chunk01
+    400018: Chunk01 (2)
+    400020: Chunk01_Mesh
+    400022: Chunk02
+    400024: Chunk02 (2)
+    400026: Chunk02 (3)
+    400028: CHunk02_mesh
+    400030: CHunk03
+    400032: Chunk03
+    400034: Chunk03 (2)
+    400036: Chunk03_mesh
+    400038: CHunk04
+    400040: Chunk04
+    400042: Chunk04 (2)
+    400044: Chunk04_Mesh
+    400046: Chunk04_Road
+    400048: Chunk04_Roof
+    400050: CHunk04_SideProps
+    400052: Chunk04_Walls
+    400054: Chunk04Geo
+    400056: Dog
+    400058: Fence
+    400060: Fence_02
+    400062: Fence_02 (2)
+    400064: Group Locator
+    400066: Horus
+    400068: Info
+    400070: Mesh
+    400072: Mesh (10)
+    400074: Mesh (100)
+    400076: Mesh (101)
+    400078: Mesh (102)
+    400080: Mesh (103)
+    400082: Mesh (104)
+    400084: Mesh (105)
+    400086: Mesh (106)
+    400088: Mesh (107)
+    400090: Mesh (108)
+    400092: Mesh (11)
+    400094: Mesh (12)
+    400096: Mesh (13)
+    400098: Mesh (14)
+    400100: Mesh (15)
+    400102: Mesh (16)
+    400104: Mesh (17)
+    400106: Mesh (18)
+    400108: Mesh (19)
+    400110: Mesh (2)
+    400112: Mesh (20)
+    400114: Mesh (21)
+    400116: Mesh (22)
+    400118: Mesh (23)
+    400120: Mesh (24)
+    400122: Mesh (25)
+    400124: Mesh (26)
+    400126: Mesh (27)
+    400128: Mesh (28)
+    400130: Mesh (29)
+    400132: Mesh (3)
+    400134: Mesh (30)
+    400136: Mesh (31)
+    400138: Mesh (32)
+    400140: Mesh (33)
+    400142: Mesh (34)
+    400144: Mesh (35)
+    400146: Mesh (36)
+    400148: Mesh (37)
+    400150: Mesh (38)
+    400152: Mesh (39)
+    400154: Mesh (4)
+    400156: Mesh (40)
+    400158: Mesh (41)
+    400160: Mesh (42)
+    400162: Mesh (5)
+    400164: Mesh (53)
+    400166: Mesh (54)
+    400168: Mesh (55)
+    400170: Mesh (57)
+    400172: Mesh (58)
+    400174: Mesh (59)
+    400176: Mesh (6)
+    400178: Mesh (60)
+    400180: Mesh (61)
+    400182: Mesh (62)
+    400184: Mesh (63)
+    400186: Mesh (64)
+    400188: Mesh (65)
+    400190: Mesh (66)
+    400192: Mesh (67)
+    400194: Mesh (68)
+    400196: Mesh (69)
+    400198: Mesh (7)
+    400200: Mesh (70)
+    400202: Mesh (71)
+    400204: Mesh (72)
+    400206: Mesh (73)
+    400208: Mesh (74)
+    400210: Mesh (75)
+    400212: Mesh (76)
+    400214: Mesh (77)
+    400216: Mesh (78)
+    400218: Mesh (79)
+    400220: Mesh (8)
+    400222: Mesh (80)
+    400224: Mesh (81)
+    400226: Mesh (82)
+    400228: Mesh (83)
+    400230: Mesh (84)
+    400232: Mesh (85)
+    400234: Mesh (86)
+    400236: Mesh (87)
+    400238: Mesh (88)
+    400240: Mesh (89)
+    400242: Mesh (9)
+    400244: Mesh (90)
+    400246: Mesh (91)
+    400248: Mesh (92)
+    400250: Mesh (93)
+    400252: Mesh (94)
+    400254: Mesh (95)
+    400256: Mesh (96)
+    400258: Mesh (97)
+    400260: Mesh (98)
+    400262: Mesh (99)
+    400264: Obstacle_Banner
+    400266: Obstacle_Cat
+    400268: Obstacle_Dog
+    400270: Obstacle_Fence
+    400272: Obstacle_FenceCurved
+    400274: Obstacle_Sarcophagus
+    400276: Obstacle_Sarcophagus_slidable
+    400278: Obstacle_Sarcophagus_vertical
+    400280: Obstacle_Sphinx
+    400282: Obstacle_Tomb
+    400284: Obstacles
+    400286: //RootNode
+    400288: Pillars
+    400290: Pillars (10)
+    400292: Pillars (11)
+    400294: Pillars (12)
+    400296: Pillars (13)
+    400298: Pillars (14)
+    400300: Pillars (2)
+    400302: Pillars (3)
+    400304: Pillars (4)
+    400306: Pillars (5)
+    400308: Pillars (6)
+    400310: Pillars (7)
+    400312: Pillars (8)
+    400314: Pillars (9)
+    400316: Sarcophagus_dynamic
+    400318: Sarcophagus_slidable
+    400320: Scarab
+    400322: School_GymObstacle
+    400324: SideEnviro
+    400326: SideEnviro (2)
+    400328: Sphinx
+    400330: Statues
+    400332: Table
+    400334: Texture Group
+    400336: Tomb
+    400338: Tomb_02
+    400340: Vase
+    400342: Visual
+    2100000: Default
+    2100002: defaultMat
+    2100004: School_Obstacles
+    2100006: LouvreChunk01_Atlas
+    2100008: LouvreChunk01_Tiling
+    2100010: LouvreChunk01_Props
+    2100012: AdrienMansion_UpperFloor_Floor
+    2100014: LouvreChunk01_Ground
+    2100016: LouvreChunk01_Glass
+    2100018: LouvreChunk01_Lanes
+    2100020: Chunk02_Atlas
+    2100022: Chunk02_SideAssets
+    2100024: Chunk02_Lanes
+    2100026: Chunk02LouvreGround
+    2100028: Chunk02_Tiling
+    2100030: Chunk03_SideAssets
+    2100032: Chunk03_Atlas
+    2100034: Chunk03_Glass
+    2100036: Chunk03_Tiling
+    2100038: Chunk03_Ground
+    2100040: Chunk03_Lanes
+    2100042: Glass
+    2100044: Chunk04Atlas
+    2100046: Chunk04Tiling
+    2100048: Chunk04Ground
+    2100050: Chunk04_SideAssets
+    2100052: Chunk04Lanes
+    2100054: Chunk04Glass
+    2100056: Louvre_Obstacles
+    2300000: AdrienMansion_UpperFloor
+    2300002: AdrienMansion_UpperFloor (2)
+    2300004: AdrienMansion_UpperFloor (3)
+    2300006: Anubis
+    2300008: Artefact
+    2300010: Banner
+    2300012: Cat
+    2300014: Chunk01_Mesh
+    2300016: CHunk02_mesh
+    2300018: Chunk03_mesh
+    2300020: Chunk04_Mesh
+    2300022: Chunk04_Road
+    2300024: Chunk04_Roof
+    2300026: CHunk04_SideProps
+    2300028: Chunk04_Walls
+    2300030: Chunk04Geo
+    2300032: Dog
+    2300034: Fence
+    2300036: Fence_02
+    2300038: Fence_02 (2)
+    2300040: Horus
+    2300042: Info
+    2300044: Mesh (10)
+    2300046: Mesh (100)
+    2300048: Mesh (101)
+    2300050: Mesh (102)
+    2300052: Mesh (103)
+    2300054: Mesh (104)
+    2300056: Mesh (105)
+    2300058: Mesh (106)
+    2300060: Mesh (107)
+    2300062: Mesh (108)
+    2300064: Mesh (11)
+    2300066: Mesh (12)
+    2300068: Mesh (13)
+    2300070: Mesh (14)
+    2300072: Mesh (15)
+    2300074: Mesh (16)
+    2300076: Mesh (17)
+    2300078: Mesh (18)
+    2300080: Mesh (19)
+    2300082: Mesh (2)
+    2300084: Mesh (20)
+    2300086: Mesh (21)
+    2300088: Mesh (22)
+    2300090: Mesh (23)
+    2300092: Mesh (24)
+    2300094: Mesh (25)
+    2300096: Mesh (26)
+    2300098: Mesh (27)
+    2300100: Mesh (28)
+    2300102: Mesh (29)
+    2300104: Mesh (3)
+    2300106: Mesh (30)
+    2300108: Mesh (31)
+    2300110: Mesh (32)
+    2300112: Mesh (33)
+    2300114: Mesh (34)
+    2300116: Mesh (35)
+    2300118: Mesh (36)
+    2300120: Mesh (37)
+    2300122: Mesh (38)
+    2300124: Mesh (39)
+    2300126: Mesh (4)
+    2300128: Mesh (40)
+    2300130: Mesh (41)
+    2300132: Mesh (42)
+    2300134: Mesh (5)
+    2300136: Mesh (53)
+    2300138: Mesh (54)
+    2300140: Mesh (55)
+    2300142: Mesh (57)
+    2300144: Mesh (58)
+    2300146: Mesh (59)
+    2300148: Mesh (6)
+    2300150: Mesh (60)
+    2300152: Mesh (61)
+    2300154: Mesh (62)
+    2300156: Mesh (63)
+    2300158: Mesh (64)
+    2300160: Mesh (65)
+    2300162: Mesh (66)
+    2300164: Mesh (67)
+    2300166: Mesh (68)
+    2300168: Mesh (69)
+    2300170: Mesh (7)
+    2300172: Mesh (70)
+    2300174: Mesh (71)
+    2300176: Mesh (72)
+    2300178: Mesh (73)
+    2300180: Mesh (74)
+    2300182: Mesh (75)
+    2300184: Mesh (76)
+    2300186: Mesh (77)
+    2300188: Mesh (78)
+    2300190: Mesh (79)
+    2300192: Mesh (8)
+    2300194: Mesh (80)
+    2300196: Mesh (81)
+    2300198: Mesh (82)
+    2300200: Mesh (83)
+    2300202: Mesh (84)
+    2300204: Mesh (85)
+    2300206: Mesh (86)
+    2300208: Mesh (87)
+    2300210: Mesh (88)
+    2300212: Mesh (89)
+    2300214: Mesh (9)
+    2300216: Mesh (90)
+    2300218: Mesh (91)
+    2300220: Mesh (92)
+    2300222: Mesh (93)
+    2300224: Mesh (94)
+    2300226: Mesh (95)
+    2300228: Mesh (96)
+    2300230: Mesh (97)
+    2300232: Mesh (98)
+    2300234: Mesh (99)
+    2300236: Obstacle_Banner
+    2300238: Obstacle_Cat
+    2300240: Obstacle_Dog
+    2300242: Obstacle_Fence
+    2300244: Obstacle_FenceCurved
+    2300246: Obstacle_Sarcophagus
+    2300248: Obstacle_Sarcophagus_slidable
+    2300250: Obstacle_Sarcophagus_vertical
+    2300252: Obstacle_Sphinx
+    2300254: Obstacle_Tomb
+    2300256: Pillars
+    2300258: Pillars (10)
+    2300260: Pillars (11)
+    2300262: Pillars (12)
+    2300264: Pillars (13)
+    2300266: Pillars (14)
+    2300268: Pillars (2)
+    2300270: Pillars (3)
+    2300272: Pillars (4)
+    2300274: Pillars (5)
+    2300276: Pillars (6)
+    2300278: Pillars (7)
+    2300280: Pillars (8)
+    2300282: Pillars (9)
+    2300284: Sarcophagus_dynamic
+    2300286: Sarcophagus_slidable
+    2300288: Scarab
+    2300290: School_GymObstacle
+    2300292: SideEnviro
+    2300294: SideEnviro (2)
+    2300296: Sphinx
+    2300298: Statues
+    2300300: Table
+    2300302: Tomb
+    2300304: Tomb_02
+    2300306: Vase
+    2300308: Visual
+    2300310: //RootNode
+    3300000: AdrienMansion_UpperFloor
+    3300002: AdrienMansion_UpperFloor (2)
+    3300004: AdrienMansion_UpperFloor (3)
+    3300006: Anubis
+    3300008: Artefact
+    3300010: Banner
+    3300012: Cat
+    3300014: Chunk01_Mesh
+    3300016: CHunk02_mesh
+    3300018: Chunk03_mesh
+    3300020: Chunk04_Mesh
+    3300022: Chunk04_Road
+    3300024: Chunk04_Roof
+    3300026: CHunk04_SideProps
+    3300028: Chunk04_Walls
+    3300030: Chunk04Geo
+    3300032: Dog
+    3300034: Fence
+    3300036: Fence_02
+    3300038: Fence_02 (2)
+    3300040: Horus
+    3300042: Info
+    3300044: Mesh (10)
+    3300046: Mesh (100)
+    3300048: Mesh (101)
+    3300050: Mesh (102)
+    3300052: Mesh (103)
+    3300054: Mesh (104)
+    3300056: Mesh (105)
+    3300058: Mesh (106)
+    3300060: Mesh (107)
+    3300062: Mesh (108)
+    3300064: Mesh (11)
+    3300066: Mesh (12)
+    3300068: Mesh (13)
+    3300070: Mesh (14)
+    3300072: Mesh (15)
+    3300074: Mesh (16)
+    3300076: Mesh (17)
+    3300078: Mesh (18)
+    3300080: Mesh (19)
+    3300082: Mesh (2)
+    3300084: Mesh (20)
+    3300086: Mesh (21)
+    3300088: Mesh (22)
+    3300090: Mesh (23)
+    3300092: Mesh (24)
+    3300094: Mesh (25)
+    3300096: Mesh (26)
+    3300098: Mesh (27)
+    3300100: Mesh (28)
+    3300102: Mesh (29)
+    3300104: Mesh (3)
+    3300106: Mesh (30)
+    3300108: Mesh (31)
+    3300110: Mesh (32)
+    3300112: Mesh (33)
+    3300114: Mesh (34)
+    3300116: Mesh (35)
+    3300118: Mesh (36)
+    3300120: Mesh (37)
+    3300122: Mesh (38)
+    3300124: Mesh (39)
+    3300126: Mesh (4)
+    3300128: Mesh (40)
+    3300130: Mesh (41)
+    3300132: Mesh (42)
+    3300134: Mesh (5)
+    3300136: Mesh (53)
+    3300138: Mesh (54)
+    3300140: Mesh (55)
+    3300142: Mesh (57)
+    3300144: Mesh (58)
+    3300146: Mesh (59)
+    3300148: Mesh (6)
+    3300150: Mesh (60)
+    3300152: Mesh (61)
+    3300154: Mesh (62)
+    3300156: Mesh (63)
+    3300158: Mesh (64)
+    3300160: Mesh (65)
+    3300162: Mesh (66)
+    3300164: Mesh (67)
+    3300166: Mesh (68)
+    3300168: Mesh (69)
+    3300170: Mesh (7)
+    3300172: Mesh (70)
+    3300174: Mesh (71)
+    3300176: Mesh (72)
+    3300178: Mesh (73)
+    3300180: Mesh (74)
+    3300182: Mesh (75)
+    3300184: Mesh (76)
+    3300186: Mesh (77)
+    3300188: Mesh (78)
+    3300190: Mesh (79)
+    3300192: Mesh (8)
+    3300194: Mesh (80)
+    3300196: Mesh (81)
+    3300198: Mesh (82)
+    3300200: Mesh (83)
+    3300202: Mesh (84)
+    3300204: Mesh (85)
+    3300206: Mesh (86)
+    3300208: Mesh (87)
+    3300210: Mesh (88)
+    3300212: Mesh (89)
+    3300214: Mesh (9)
+    3300216: Mesh (90)
+    3300218: Mesh (91)
+    3300220: Mesh (92)
+    3300222: Mesh (93)
+    3300224: Mesh (94)
+    3300226: Mesh (95)
+    3300228: Mesh (96)
+    3300230: Mesh (97)
+    3300232: Mesh (98)
+    3300234: Mesh (99)
+    3300236: Obstacle_Banner
+    3300238: Obstacle_Cat
+    3300240: Obstacle_Dog
+    3300242: Obstacle_Fence
+    3300244: Obstacle_FenceCurved
+    3300246: Obstacle_Sarcophagus
+    3300248: Obstacle_Sarcophagus_slidable
+    3300250: Obstacle_Sarcophagus_vertical
+    3300252: Obstacle_Sphinx
+    3300254: Obstacle_Tomb
+    3300256: Pillars
+    3300258: Pillars (10)
+    3300260: Pillars (11)
+    3300262: Pillars (12)
+    3300264: Pillars (13)
+    3300266: Pillars (14)
+    3300268: Pillars (2)
+    3300270: Pillars (3)
+    3300272: Pillars (4)
+    3300274: Pillars (5)
+    3300276: Pillars (6)
+    3300278: Pillars (7)
+    3300280: Pillars (8)
+    3300282: Pillars (9)
+    3300284: Sarcophagus_dynamic
+    3300286: Sarcophagus_slidable
+    3300288: Scarab
+    3300290: School_GymObstacle
+    3300292: SideEnviro
+    3300294: SideEnviro (2)
+    3300296: Sphinx
+    3300298: Statues
+    3300300: Table
+    3300302: Tomb
+    3300304: Tomb_02
+    3300306: Vase
+    3300308: Visual
+    3300310: //RootNode
+    4300000: Statues
+    4300002: Mesh (5)
+    4300004: Mesh (54)
+    4300006: School_GymObstacle
+    4300008: Pillars (2)
+    4300010: Mesh (62)
+    4300012: Mesh (3)
+    4300014: SideEnviro
+    4300016: AdrienMansion_UpperFloor (3)
+    4300018: Chunk01_Mesh
+    4300020: Mesh (58)
+    4300022: AdrienMansion_UpperFloor (2)
+    4300024: Mesh (55)
+    4300026: Mesh (7)
+    4300028: CHunk02_mesh
+    4300030: Mesh (4)
+    4300032: Mesh (59)
+    4300034: Mesh (75)
+    4300036: Mesh (93)
+    4300038: Mesh (6)
+    4300040: Mesh (60)
+    4300042: Mesh (61)
+    4300044: AdrienMansion_UpperFloor
+    4300046: Chunk03_mesh
+    4300048: Anubis
+    4300050: Fence_02 (2)
+    4300052: Sarcophagus_slidable
+    4300054: Fence
+    4300056: Tomb_02
+    4300058: Tomb
+    4300060: Table
+    4300062: Info
+    4300064: Visual
+    4300066: Fence_02
+    4300068: Sarcophagus_dynamic
+    4300070: Vase
+    4300072: Scarab
+    4300074: Artefact
+    4300076: Cat
+    4300078: Dog
+    4300080: Sphinx
+    4300082: Horus
+    4300084: Banner
+    4300086: Chunk04_Roof
+    4300088: Mesh (94)
+    4300090: Mesh (95)
+    4300092: Mesh (96)
+    4300094: Mesh (97)
+    4300096: Chunk04Geo
+    4300098: CHunk04_SideProps
+    4300100: Chunk04_Walls
+    4300102: Chunk04_Road
+    4300104: Chunk04_Mesh
+    4300106: Obstacle_Banner
+    4300108: Obstacle_Dog
+    4300110: Obstacle_Cat
+    4300112: Obstacle_Sphinx
+    4300114: Obstacle_Fence
+    4300116: Obstacle_FenceCurved
+    4300118: Obstacle_Sarcophagus_slidable
+    4300120: Obstacle_Tomb
+    4300122: Obstacle_Sarcophagus
+    4300124: Obstacle_Sarcophagus_vertical
+    7400000: Take 001
+    9500000: //RootNode
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

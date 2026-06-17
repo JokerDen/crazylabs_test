@@ -1,0 +1,122 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Atlas_MapMenu
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings:
+    - serializedVersion: 3
+      m_BuildTarget: Android
+      m_MaxTextureSize: 2048
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: 47
+      m_TextureCompression: 1
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 1
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 0
+      enableTightPacking: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 102900000, guid: e32a58e6bb27347e89ec2b961f647d06, type: 3}
+    - {fileID: 102900000, guid: bec05ccefcbff45c296fe19a2ec4152b, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: 4fa381a0002f945e5a21456af67cb04b, type: 3}
+  - {fileID: 21300000, guid: e4e196515ae3c412e966712a80c2d9ef, type: 3}
+  - {fileID: 21300000, guid: 8e34e9c13fbaadf41888d5202122f068, type: 3}
+  - {fileID: 21300000, guid: 64d26353a2056405a9e1cb5cbfd03432, type: 3}
+  - {fileID: 21300000, guid: f860a3638325e433dab3b3e4aadf61a5, type: 3}
+  - {fileID: 21300000, guid: 3c4183f309acb4f7fa0fa74709f4021d, type: 3}
+  - {fileID: 21300000, guid: d7cbf204671354665871aa723d2d9500, type: 3}
+  - {fileID: 21300000, guid: a33274742876a4b51b9d63a050db3a16, type: 3}
+  - {fileID: 21300000, guid: 527e0e74ecb8d41408edfa443762b349, type: 3}
+  - {fileID: 21300000, guid: 26386c75b7f2d4ee29829574bd387494, type: 3}
+  - {fileID: 21300000, guid: db0763a5d00a34a56983d56965978eeb, type: 3}
+  - {fileID: 21300000, guid: 960b27b5fe1a147a1945fe523ed7fff3, type: 3}
+  - {fileID: 21300000, guid: 29b6dfd5a3963491ba280ca8d9541cac, type: 3}
+  - {fileID: 21300000, guid: e4bfd216c2b264fc79b3ba1e7c660829, type: 3}
+  - {fileID: 21300000, guid: a0a90d16103d2487caa220734c26940e, type: 3}
+  - {fileID: 21300000, guid: 9e40ca371571e4701b9132f14c29a89e, type: 3}
+  - {fileID: 21300000, guid: 76aa8767d7f234e0daa280402e16aef1, type: 3}
+  - {fileID: 21300000, guid: 811b6a29584b34a0eb54a074cb73cffa, type: 3}
+  - {fileID: 21300000, guid: 66fd5d2af9084481da4860bb7efd7791, type: 3}
+  - {fileID: 21300000, guid: 6c94c03aa84e14bca9ea8af14c3c5cec, type: 3}
+  - {fileID: 21300000, guid: d675bb8ab3eb24d608f67713e8dfe998, type: 3}
+  - {fileID: 21300000, guid: 591ac20c196b9497d9e984a05b61d388, type: 3}
+  - {fileID: 21300000, guid: 329368cca39d44d08b6a7ab198447264, type: 3}
+  - {fileID: 21300000, guid: 95ca9fec461744ab79303e5555ba63ab, type: 3}
+  - {fileID: 21300000, guid: e7c2e51e8cf9e4986b8e2020dbc7d514, type: 3}
+  - {fileID: 21300000, guid: 3dc4057e2fead468cb835c2d1023de9d, type: 3}
+  - {fileID: 21300000, guid: 1dc6b49eb4fc142d8b64c4a177da788d, type: 3}
+  - {fileID: 21300000, guid: a3c3e6aea558c48e184878380ac1aa83, type: 3}
+  - {fileID: 21300000, guid: ad32ffde1329843c4bc2fcff8126e1a7, type: 3}
+  - {fileID: 21300000, guid: b401dfeecc78fb64994ae69bee8948ea, type: 3}
+  - {fileID: 21300000, guid: 7bb8f15f912844c3db2d7daf686f9e26, type: 3}
+  - {fileID: 21300000, guid: 7b48ad9fbc40e41b3becd10b0db343da, type: 3}
+  - {fileID: 21300000, guid: e2c222af89e834703a4c6b10a8e72a4e, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - map_vipBTN_bf_small
+  - map_checkPAD
+  - notification_icon_shadow
+  - map_vipBTN_bf
+  - hmMode_mapPanelRays
+  - map_storeBtnGlow
+  - hmMode_mapAkuma_03
+  - map_roundedRect
+  - btnStickersBkg
+  - map_gift
+  - map_checkmark
+  - map_BTN_shadow
+  - btnIndicator
+  - store_ribbon
+  - hmMode_mapIcon
+  - map_settingsBTN
+  - hmMode_mapAkuma_02
+  - map_tooltipARROW
+  - map_VIPBtnGlow
+  - map_vipBTN
+  - map_rv
+  - map_BTN
+  - map_stickers
+  - hmMode_mapAkuma_01
+  - map_playBTN_icon
+  - map_menuPAD
+  - map_rv_butterflies
+  - hmMode_mapAkuma_04
+  - map_butterfliesGlow
+  - lightning_icon
+  - map_vipBTN_base
+  - map_storeBTN_icon
+  - icon_notification_store
+  m_RenderDataMap: {}
+  m_Tag: Atlas_MapMenu
+  m_IsVariant: 0

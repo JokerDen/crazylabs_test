@@ -1,0 +1,138 @@
+fileFormatVersion: 2
+guid: d18417c95b0e2b140b0218c4e03ce4c0
+timeCreated: 1513004601
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Obstacle_AC1_2L_Jump_shadow
+    100002: Obstacle_AC1_shadow
+    100004: Obstacle_AC1_Slide_shadow
+    100006: Obstacle_AC2_shadow
+    100008: Obstacle_AC2_Slide_shadow
+    100010: Obstacle_Billboard_shadow
+    100012: Obstacle_RoofExit_shadow
+    100014: Obstacle_SatDish_shadow
+    100016: Obstacle_SolarPanels_shadow
+    100018: Obstacle_SunRoof_3L_Blocker_shadow
+    100020: Obstacle_SunRoof_RunAlong_shadow
+    100022: Obstacle_SunRoof_shadow
+    100024: Obstacle_WaterTank_shadow
+    100026: //RootNode
+    400000: Obstacle_AC1_2L_Jump_shadow
+    400002: Obstacle_AC1_shadow
+    400004: Obstacle_AC1_Slide_shadow
+    400006: Obstacle_AC2_shadow
+    400008: Obstacle_AC2_Slide_shadow
+    400010: Obstacle_Billboard_shadow
+    400012: Obstacle_RoofExit_shadow
+    400014: Obstacle_SatDish_shadow
+    400016: Obstacle_SolarPanels_shadow
+    400018: Obstacle_SunRoof_3L_Blocker_shadow
+    400020: Obstacle_SunRoof_RunAlong_shadow
+    400022: Obstacle_SunRoof_shadow
+    400024: Obstacle_WaterTank_shadow
+    400026: //RootNode
+    2300000: Obstacle_AC1_2L_Jump_shadow
+    2300002: Obstacle_AC1_shadow
+    2300004: Obstacle_AC1_Slide_shadow
+    2300006: Obstacle_AC2_shadow
+    2300008: Obstacle_AC2_Slide_shadow
+    2300010: Obstacle_Billboard_shadow
+    2300012: Obstacle_RoofExit_shadow
+    2300014: Obstacle_SatDish_shadow
+    2300016: Obstacle_SolarPanels_shadow
+    2300018: Obstacle_SunRoof_3L_Blocker_shadow
+    2300020: Obstacle_SunRoof_RunAlong_shadow
+    2300022: Obstacle_SunRoof_shadow
+    2300024: Obstacle_WaterTank_shadow
+    3300000: Obstacle_AC1_2L_Jump_shadow
+    3300002: Obstacle_AC1_shadow
+    3300004: Obstacle_AC1_Slide_shadow
+    3300006: Obstacle_AC2_shadow
+    3300008: Obstacle_AC2_Slide_shadow
+    3300010: Obstacle_Billboard_shadow
+    3300012: Obstacle_RoofExit_shadow
+    3300014: Obstacle_SatDish_shadow
+    3300016: Obstacle_SolarPanels_shadow
+    3300018: Obstacle_SunRoof_3L_Blocker_shadow
+    3300020: Obstacle_SunRoof_RunAlong_shadow
+    3300022: Obstacle_SunRoof_shadow
+    3300024: Obstacle_WaterTank_shadow
+    4300000: Obstacle_AC1_shadow
+    4300002: Obstacle_AC2_Slide_shadow
+    4300004: Obstacle_SunRoof_RunAlong_shadow
+    4300006: Obstacle_AC1_Slide_shadow
+    4300008: Obstacle_SolarPanels_shadow
+    4300010: Obstacle_Billboard_shadow
+    4300012: Obstacle_WaterTank_shadow
+    4300014: Obstacle_SunRoof_shadow
+    4300016: Obstacle_SatDish_shadow
+    4300018: Obstacle_SunRoof_3L_Blocker_shadow
+    4300020: Obstacle_AC2_shadow
+    4300022: Obstacle_RoofExit_shadow
+    4300024: Obstacle_AC1_2L_Jump_shadow
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

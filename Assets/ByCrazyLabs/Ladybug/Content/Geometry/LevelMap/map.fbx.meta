@@ -1,0 +1,435 @@
+fileFormatVersion: 2
+guid: d6d38f4d7d206d349b7c89db18dbcb11
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Cafe
+    100002: Eiffel_Tower
+    100004: H1
+    100006: H1 (2)
+    100008: H1 (3)
+    100010: H1 (4)
+    100012: H1 (5)
+    100014: H1 (6)
+    100016: H1 (7)
+    100018: H1 (8)
+    100020: H2
+    100022: H2 (2)
+    100024: H2 (3)
+    100026: H2 (4)
+    100028: H2 (5)
+    100030: H2 (6)
+    100032: H2 (7)
+    100034: H2 (8)
+    100036: H2 (9)
+    100038: H3
+    100040: H3 (2)
+    100042: H3 (3)
+    100044: H3 (4)
+    100046: H4
+    100048: H4 (2)
+    100050: H4 (3)
+    100052: H4 (4)
+    100054: H4 (5)
+    100056: H5
+    100058: H5 (10)
+    100060: H5 (2)
+    100062: H5 (3)
+    100064: H5 (4)
+    100066: H5 (5)
+    100068: H5 (6)
+    100070: H5 (7)
+    100072: H5 (8)
+    100074: H5 (9)
+    100076: H6
+    100078: H6 (10)
+    100080: H6 (2)
+    100082: H6 (3)
+    100084: H6 (4)
+    100086: H6 (5)
+    100088: H6 (6)
+    100090: H6 (7)
+    100092: H6 (8)
+    100094: H6 (9)
+    100096: Louvre
+    100098: //RootNode
+    100100: Mesh
+    100102: Museum
+    100104: School
+    100106: Theater
+    100108: Triumphial_Arch
+    100110: Villa
+    100112: H1 (10)
+    100114: H1 (9)
+    100116: H2 (10)
+    100118: H2 (11)
+    100120: H3 (5)
+    100122: H4 (6)
+    100124: H4 (7)
+    100126: H5 (11)
+    100128: H6 (11)
+    100130: H6 (12)
+    100132: Mesh (2)
+    400000: Cafe
+    400002: Eiffel_Tower
+    400004: H1
+    400006: H1 (2)
+    400008: H1 (3)
+    400010: H1 (4)
+    400012: H1 (5)
+    400014: H1 (6)
+    400016: H1 (7)
+    400018: H1 (8)
+    400020: H2
+    400022: H2 (2)
+    400024: H2 (3)
+    400026: H2 (4)
+    400028: H2 (5)
+    400030: H2 (6)
+    400032: H2 (7)
+    400034: H2 (8)
+    400036: H2 (9)
+    400038: H3
+    400040: H3 (2)
+    400042: H3 (3)
+    400044: H3 (4)
+    400046: H4
+    400048: H4 (2)
+    400050: H4 (3)
+    400052: H4 (4)
+    400054: H4 (5)
+    400056: H5
+    400058: H5 (10)
+    400060: H5 (2)
+    400062: H5 (3)
+    400064: H5 (4)
+    400066: H5 (5)
+    400068: H5 (6)
+    400070: H5 (7)
+    400072: H5 (8)
+    400074: H5 (9)
+    400076: H6
+    400078: H6 (10)
+    400080: H6 (2)
+    400082: H6 (3)
+    400084: H6 (4)
+    400086: H6 (5)
+    400088: H6 (6)
+    400090: H6 (7)
+    400092: H6 (8)
+    400094: H6 (9)
+    400096: Louvre
+    400098: //RootNode
+    400100: Mesh
+    400102: Museum
+    400104: School
+    400106: Theater
+    400108: Triumphial_Arch
+    400110: Villa
+    400112: H1 (10)
+    400114: H1 (9)
+    400116: H2 (10)
+    400118: H2 (11)
+    400120: H3 (5)
+    400122: H4 (6)
+    400124: H4 (7)
+    400126: H5 (11)
+    400128: H6 (11)
+    400130: H6 (12)
+    400132: Mesh (2)
+    2300000: Cafe
+    2300002: Eiffel_Tower
+    2300004: H1
+    2300006: H1 (2)
+    2300008: H1 (3)
+    2300010: H1 (4)
+    2300012: H1 (5)
+    2300014: H1 (6)
+    2300016: H1 (7)
+    2300018: H1 (8)
+    2300020: H2
+    2300022: H2 (2)
+    2300024: H2 (3)
+    2300026: H2 (4)
+    2300028: H2 (5)
+    2300030: H2 (6)
+    2300032: H2 (7)
+    2300034: H2 (8)
+    2300036: H2 (9)
+    2300038: H3
+    2300040: H3 (2)
+    2300042: H3 (3)
+    2300044: H3 (4)
+    2300046: H4
+    2300048: H4 (2)
+    2300050: H4 (3)
+    2300052: H4 (4)
+    2300054: H4 (5)
+    2300056: H5
+    2300058: H5 (10)
+    2300060: H5 (2)
+    2300062: H5 (3)
+    2300064: H5 (4)
+    2300066: H5 (5)
+    2300068: H5 (6)
+    2300070: H5 (7)
+    2300072: H5 (8)
+    2300074: H5 (9)
+    2300076: H6
+    2300078: H6 (10)
+    2300080: H6 (2)
+    2300082: H6 (3)
+    2300084: H6 (4)
+    2300086: H6 (5)
+    2300088: H6 (6)
+    2300090: H6 (7)
+    2300092: H6 (8)
+    2300094: H6 (9)
+    2300096: Louvre
+    2300098: Mesh
+    2300100: Museum
+    2300102: School
+    2300104: Theater
+    2300106: Triumphial_Arch
+    2300108: Villa
+    2300110: H1 (10)
+    2300112: H1 (9)
+    2300114: H2 (10)
+    2300116: H2 (11)
+    2300118: H3 (5)
+    2300120: H4 (6)
+    2300122: H4 (7)
+    2300124: H5 (11)
+    2300126: H6 (11)
+    2300128: H6 (12)
+    2300130: Mesh (2)
+    3300000: Cafe
+    3300002: Eiffel_Tower
+    3300004: H1
+    3300006: H1 (2)
+    3300008: H1 (3)
+    3300010: H1 (4)
+    3300012: H1 (5)
+    3300014: H1 (6)
+    3300016: H1 (7)
+    3300018: H1 (8)
+    3300020: H2
+    3300022: H2 (2)
+    3300024: H2 (3)
+    3300026: H2 (4)
+    3300028: H2 (5)
+    3300030: H2 (6)
+    3300032: H2 (7)
+    3300034: H2 (8)
+    3300036: H2 (9)
+    3300038: H3
+    3300040: H3 (2)
+    3300042: H3 (3)
+    3300044: H3 (4)
+    3300046: H4
+    3300048: H4 (2)
+    3300050: H4 (3)
+    3300052: H4 (4)
+    3300054: H4 (5)
+    3300056: H5
+    3300058: H5 (10)
+    3300060: H5 (2)
+    3300062: H5 (3)
+    3300064: H5 (4)
+    3300066: H5 (5)
+    3300068: H5 (6)
+    3300070: H5 (7)
+    3300072: H5 (8)
+    3300074: H5 (9)
+    3300076: H6
+    3300078: H6 (10)
+    3300080: H6 (2)
+    3300082: H6 (3)
+    3300084: H6 (4)
+    3300086: H6 (5)
+    3300088: H6 (6)
+    3300090: H6 (7)
+    3300092: H6 (8)
+    3300094: H6 (9)
+    3300096: Louvre
+    3300098: Mesh
+    3300100: Museum
+    3300102: School
+    3300104: Theater
+    3300106: Triumphial_Arch
+    3300108: Villa
+    3300110: H1 (10)
+    3300112: H1 (9)
+    3300114: H2 (10)
+    3300116: H2 (11)
+    3300118: H3 (5)
+    3300120: H4 (6)
+    3300122: H4 (7)
+    3300124: H5 (11)
+    3300126: H6 (11)
+    3300128: H6 (12)
+    3300130: Mesh (2)
+    4300000: H3
+    4300002: H6
+    4300004: H5
+    4300006: H2
+    4300008: Mesh
+    4300010: H4
+    4300012: H4 (2)
+    4300014: H5 (2)
+    4300016: H1
+    4300018: Triumphial_Arch
+    4300020: H1 (2)
+    4300022: H2 (2)
+    4300024: H2 (3)
+    4300026: H2 (4)
+    4300028: H2 (5)
+    4300030: H2 (6)
+    4300032: H6 (2)
+    4300034: H3 (2)
+    4300036: H5 (3)
+    4300038: H5 (4)
+    4300040: H5 (5)
+    4300042: Louvre
+    4300044: Theater
+    4300046: H6 (3)
+    4300048: H5 (6)
+    4300050: H1 (3)
+    4300052: H1 (4)
+    4300054: Eiffel_Tower
+    4300056: H3 (3)
+    4300058: H6 (4)
+    4300060: H5 (7)
+    4300062: H2 (7)
+    4300064: H4 (3)
+    4300066: H6 (5)
+    4300068: Cafe
+    4300070: H6 (6)
+    4300072: Museum
+    4300074: H1 (5)
+    4300076: H2 (8)
+    4300078: School
+    4300080: H6 (7)
+    4300082: H4 (4)
+    4300084: H4 (5)
+    4300086: H5 (8)
+    4300088: H1 (6)
+    4300090: H6 (8)
+    4300092: H6 (9)
+    4300094: H5 (9)
+    4300096: Villa
+    4300098: H3 (4)
+    4300100: H6 (10)
+    4300102: H5 (10)
+    4300104: H1 (7)
+    4300106: H1 (8)
+    4300108: H2 (9)
+    4300110: Mesh (2)
+    4300112: H2 (10)
+    4300114: H4 (6)
+    4300116: H4 (7)
+    4300118: H6 (11)
+    4300120: H3 (5)
+    4300122: H6 (12)
+    4300124: H5 (11)
+    4300126: H1 (9)
+    4300128: H1 (10)
+    4300130: H2 (11)
+    2186277476908879412: ImportLogs
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Default
+    second: {fileID: 2100000, guid: 6d348faac4a97544683052aba028aa14, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Roads
+    second: {fileID: 2100000, guid: b101711f5cd505040b32136e017e1916, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: b01_school_ext_Low
+    second: {fileID: 2100000, guid: 8a85770734a717f41bad245306a38c1e, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 0
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 0
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

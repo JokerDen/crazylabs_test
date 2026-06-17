@@ -1,0 +1,363 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!319 &31900000
+AvatarMask:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Horrificator Avatar Mask
+  m_Mask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+  m_Elements:
+  - m_Path: 
+    m_Weight: 1
+  - m_Path: Bip_Horrificator
+    m_Weight: 1
+  - m_Path: Bip_Horrificator/Bip001 Pelvis
+    m_Weight: 1
+  - m_Path: Bip_Horrificator/Bip001 Pelvis/Bip001 L Thigh
+    m_Weight: 1
+  - m_Path: Bip_Horrificator/Bip001 Pelvis/Bip001 L Thigh/Bip001 L Calf
+    m_Weight: 1
+  - m_Path: Bip_Horrificator/Bip001 Pelvis/Bip001 L Thigh/Bip001 L Calf/Bip001 L Foot
+    m_Weight: 1
+  - m_Path: Bip_Horrificator/Bip001 Pelvis/Bip001 L Thigh/Bip001 L Calf/Bip001 L Foot/Bip001
+      L Toe0
+    m_Weight: 1
+  - m_Path: Bip_Horrificator/Bip001 Pelvis/Bip001 R Thigh
+    m_Weight: 1
+  - m_Path: Bip_Horrificator/Bip001 Pelvis/Bip001 R Thigh/Bip001 R Calf
+    m_Weight: 1
+  - m_Path: Bip_Horrificator/Bip001 Pelvis/Bip001 R Thigh/Bip001 R Calf/Bip001 R Foot
+    m_Weight: 1
+  - m_Path: Bip_Horrificator/Bip001 Pelvis/Bip001 R Thigh/Bip001 R Calf/Bip001 R Foot/Bip001
+      R Toe0
+    m_Weight: 1
+  - m_Path: Bip_Horrificator/Bip001 Pelvis/Bip001 Spine
+    m_Weight: 1
+  - m_Path: Bip_Horrificator/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1
+    m_Weight: 1
+  - m_Path: Bip_Horrificator/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 L Clavicle
+    m_Weight: 1
+  - m_Path: Bip_Horrificator/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 L Clavicle/Bip001
+      L UpperArm
+    m_Weight: 1
+  - m_Path: Bip_Horrificator/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 L Clavicle/Bip001
+      L UpperArm/Bip001 L Forearm
+    m_Weight: 1
+  - m_Path: Bip_Horrificator/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 L Clavicle/Bip001
+      L UpperArm/Bip001 L Forearm/Bip001 L Hand
+    m_Weight: 1
+  - m_Path: Bip_Horrificator/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 L Clavicle/Bip001
+      L UpperArm/Bip001 L Forearm/Bip001 L Hand/Bip001 L Finger0
+    m_Weight: 1
+  - m_Path: Bip_Horrificator/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 L Clavicle/Bip001
+      L UpperArm/Bip001 L Forearm/Bip001 L Hand/Bip001 L Finger0/Bip001 L Finger01
+    m_Weight: 1
+  - m_Path: Bip_Horrificator/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 L Clavicle/Bip001
+      L UpperArm/Bip001 L Forearm/Bip001 L Hand/Bip001 L Finger1
+    m_Weight: 1
+  - m_Path: Bip_Horrificator/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 L Clavicle/Bip001
+      L UpperArm/Bip001 L Forearm/Bip001 L Hand/Bip001 L Finger1/Bip001 L Finger11
+    m_Weight: 1
+  - m_Path: Bip_Horrificator/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 L Clavicle/Bip001
+      L UpperArm/Bip001 L Forearm/Bip001 L Hand/Bip001 L Finger2
+    m_Weight: 1
+  - m_Path: Bip_Horrificator/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 L Clavicle/Bip001
+      L UpperArm/Bip001 L Forearm/Bip001 L Hand/Bip001 L Finger2/Bip001 L Finger21
+    m_Weight: 1
+  - m_Path: Bip_Horrificator/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 L Clavicle/Bip001
+      L UpperArm/Bip001 L Forearm/Bip001 L Hand/Bip001 L Finger3
+    m_Weight: 1
+  - m_Path: Bip_Horrificator/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 L Clavicle/Bip001
+      L UpperArm/Bip001 L Forearm/Bip001 L Hand/Bip001 L Finger3/Bip001 L Finger31
+    m_Weight: 1
+  - m_Path: Bip_Horrificator/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 L Clavicle/Bip001
+      L UpperArm/Bip001 L Forearm/Bip001 L Hand/Bip001 L Finger4
+    m_Weight: 1
+  - m_Path: Bip_Horrificator/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 L Clavicle/Bip001
+      L UpperArm/Bip001 L Forearm/Bip001 L Hand/Bip001 L Finger4/Bip001 L Finger41
+    m_Weight: 1
+  - m_Path: Bip_Horrificator/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Neck
+    m_Weight: 1
+  - m_Path: Bip_Horrificator/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Neck/Bip001
+      Head
+    m_Weight: 1
+  - m_Path: Bip_Horrificator/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Neck/Bip001
+      Head/Bn_HairDownL_G01
+    m_Weight: 1
+  - m_Path: Bip_Horrificator/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Neck/Bip001
+      Head/Bn_HairDownL_G01/Bn_HairDownL_G02
+    m_Weight: 1
+  - m_Path: Bip_Horrificator/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Neck/Bip001
+      Head/Bn_HairDownL_G01/Bn_HairDownL_G02/Bn_HairDownL_G03
+    m_Weight: 1
+  - m_Path: Bip_Horrificator/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Neck/Bip001
+      Head/Bn_HairDownL_G01/Bn_HairDownL_G02/Bn_HairDownL_G03/Be_HairDownL_GN
+    m_Weight: 1
+  - m_Path: Bip_Horrificator/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Neck/Bip001
+      Head/Bn_HairDownL_H01
+    m_Weight: 1
+  - m_Path: Bip_Horrificator/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Neck/Bip001
+      Head/Bn_HairDownL_H01/Bn_HairDownL_H02
+    m_Weight: 1
+  - m_Path: Bip_Horrificator/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Neck/Bip001
+      Head/Bn_HairDownL_H01/Bn_HairDownL_H02/Bn_HairDownL_H03
+    m_Weight: 1
+  - m_Path: Bip_Horrificator/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Neck/Bip001
+      Head/Bn_HairDownL_H01/Bn_HairDownL_H02/Bn_HairDownL_H03/Be_HairDownL_HN
+    m_Weight: 1
+  - m_Path: Bip_Horrificator/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Neck/Bip001
+      Head/Bn_HairDownR_G01
+    m_Weight: 1
+  - m_Path: Bip_Horrificator/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Neck/Bip001
+      Head/Bn_HairDownR_G01/Bn_HairDownR_G02
+    m_Weight: 1
+  - m_Path: Bip_Horrificator/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Neck/Bip001
+      Head/Bn_HairDownR_G01/Bn_HairDownR_G02/Bn_HairDownR_G03
+    m_Weight: 1
+  - m_Path: Bip_Horrificator/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Neck/Bip001
+      Head/Bn_HairDownR_G01/Bn_HairDownR_G02/Bn_HairDownR_G03/Be_HairDownR_GN
+    m_Weight: 1
+  - m_Path: Bip_Horrificator/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Neck/Bip001
+      Head/Bn_HairDownR_H01
+    m_Weight: 1
+  - m_Path: Bip_Horrificator/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Neck/Bip001
+      Head/Bn_HairDownR_H01/Bn_HairDownR_H02
+    m_Weight: 1
+  - m_Path: Bip_Horrificator/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Neck/Bip001
+      Head/Bn_HairDownR_H01/Bn_HairDownR_H02/Bn_HairDownR_H03
+    m_Weight: 1
+  - m_Path: Bip_Horrificator/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Neck/Bip001
+      Head/Bn_HairDownR_H01/Bn_HairDownR_H02/Bn_HairDownR_H03/Be_HairDownR_HN
+    m_Weight: 1
+  - m_Path: Bip_Horrificator/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Neck/Bip001
+      Head/Bn_HeadGlue_MidB01
+    m_Weight: 1
+  - m_Path: Bip_Horrificator/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Neck/Bip001
+      Head/Bn_HeadGlue_MidB01/Bn_HeadGlue_MidB02
+    m_Weight: 1
+  - m_Path: Bip_Horrificator/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Neck/Bip001
+      Head/Bn_HeadGlue_MidB01/Bn_HeadGlue_MidB02/Bn_HeadGlue_MidB03
+    m_Weight: 1
+  - m_Path: Bip_Horrificator/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Neck/Bip001
+      Head/Bn_HeadGlue_MidB01/Bn_HeadGlue_MidB02/Bn_HeadGlue_MidB03/Be_HeadGlue_MidBN
+    m_Weight: 1
+  - m_Path: Bip_Horrificator/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Neck/Bip001
+      Head/Bn_HeadGlue_MidC01
+    m_Weight: 1
+  - m_Path: Bip_Horrificator/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Neck/Bip001
+      Head/Bn_HeadGlue_MidC01/Bn_HeadGlue_MidC02
+    m_Weight: 1
+  - m_Path: Bip_Horrificator/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Neck/Bip001
+      Head/Bn_HeadGlue_MidC01/Bn_HeadGlue_MidC02/Bn_HeadGlue_MidC03
+    m_Weight: 1
+  - m_Path: Bip_Horrificator/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Neck/Bip001
+      Head/Bn_HeadGlue_MidC01/Bn_HeadGlue_MidC02/Bn_HeadGlue_MidC03/Be_HeadGlue_MidCN
+    m_Weight: 1
+  - m_Path: Bip_Horrificator/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Neck/Bip001
+      Head/Bn_HeadGlueL_C01
+    m_Weight: 1
+  - m_Path: Bip_Horrificator/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Neck/Bip001
+      Head/Bn_HeadGlueL_C01/Bn_HeadGlueL_C02
+    m_Weight: 1
+  - m_Path: Bip_Horrificator/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Neck/Bip001
+      Head/Bn_HeadGlueL_C01/Bn_HeadGlueL_C02/Bn_HeadGlueL_C03
+    m_Weight: 1
+  - m_Path: Bip_Horrificator/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Neck/Bip001
+      Head/Bn_HeadGlueL_C01/Bn_HeadGlueL_C02/Bn_HeadGlueL_C03/Be_HeadGlueL_CN
+    m_Weight: 1
+  - m_Path: Bip_Horrificator/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Neck/Bip001
+      Head/Bn_HeadGlueL_D01
+    m_Weight: 1
+  - m_Path: Bip_Horrificator/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Neck/Bip001
+      Head/Bn_HeadGlueL_D01/Bn_HeadGlueL_D02
+    m_Weight: 1
+  - m_Path: Bip_Horrificator/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Neck/Bip001
+      Head/Bn_HeadGlueL_D01/Bn_HeadGlueL_D02/Be_HeadGlueL_DN
+    m_Weight: 1
+  - m_Path: Bip_Horrificator/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Neck/Bip001
+      Head/Bn_HeadGlueR_C01
+    m_Weight: 1
+  - m_Path: Bip_Horrificator/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Neck/Bip001
+      Head/Bn_HeadGlueR_C01/Bn_HeadGlueR_C02
+    m_Weight: 1
+  - m_Path: Bip_Horrificator/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Neck/Bip001
+      Head/Bn_HeadGlueR_C01/Bn_HeadGlueR_C02/Bn_HeadGlueR_C03
+    m_Weight: 1
+  - m_Path: Bip_Horrificator/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Neck/Bip001
+      Head/Bn_HeadGlueR_C01/Bn_HeadGlueR_C02/Bn_HeadGlueR_C03/Be_HeadGlueR_CN
+    m_Weight: 1
+  - m_Path: Bip_Horrificator/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Neck/Bip001
+      Head/Bn_HeadGlueR_D01
+    m_Weight: 1
+  - m_Path: Bip_Horrificator/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Neck/Bip001
+      Head/Bn_HeadGlueR_D01/Bn_HeadGlueR_D02
+    m_Weight: 1
+  - m_Path: Bip_Horrificator/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Neck/Bip001
+      Head/Bn_HeadGlueR_D01/Bn_HeadGlueR_D02/Be_HeadGlueR_DN
+    m_Weight: 1
+  - m_Path: Bip_Horrificator/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Neck/Bip001
+      Head/Bn_HeadL_GlueA01
+    m_Weight: 1
+  - m_Path: Bip_Horrificator/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Neck/Bip001
+      Head/Bn_HeadL_GlueA01/Bn_HeadL_GlueA02
+    m_Weight: 1
+  - m_Path: Bip_Horrificator/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Neck/Bip001
+      Head/Bn_HeadL_GlueA01/Bn_HeadL_GlueA02/Bn_HeadL_GlueA03
+    m_Weight: 1
+  - m_Path: Bip_Horrificator/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Neck/Bip001
+      Head/Bn_HeadL_GlueA01/Bn_HeadL_GlueA02/Bn_HeadL_GlueA03/Be_HeadL_GlueANoob
+    m_Weight: 1
+  - m_Path: Bip_Horrificator/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Neck/Bip001
+      Head/Bn_HeadL_GlueB01
+    m_Weight: 1
+  - m_Path: Bip_Horrificator/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Neck/Bip001
+      Head/Bn_HeadL_GlueB01/Bn_HeadL_GlueB02
+    m_Weight: 1
+  - m_Path: Bip_Horrificator/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Neck/Bip001
+      Head/Bn_HeadL_GlueB01/Bn_HeadL_GlueB02/Be_HeadL_GlueB
+    m_Weight: 1
+  - m_Path: Bip_Horrificator/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Neck/Bip001
+      Head/Bn_HeadMid_Glue01
+    m_Weight: 1
+  - m_Path: Bip_Horrificator/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Neck/Bip001
+      Head/Bn_HeadMid_Glue01/Bn_HeadMid_Glue02
+    m_Weight: 1
+  - m_Path: Bip_Horrificator/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Neck/Bip001
+      Head/Bn_HeadMid_Glue01/Bn_HeadMid_Glue02/Bn_HeadMid_Glue03
+    m_Weight: 1
+  - m_Path: Bip_Horrificator/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Neck/Bip001
+      Head/Bn_HeadMid_Glue01/Bn_HeadMid_Glue02/Bn_HeadMid_Glue03/Be_HeadMid_GlueNoob
+    m_Weight: 1
+  - m_Path: Bip_Horrificator/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Neck/Bip001
+      Head/Bn_HeadR_GlueA01
+    m_Weight: 1
+  - m_Path: Bip_Horrificator/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Neck/Bip001
+      Head/Bn_HeadR_GlueA01/Bn_HeadR_GlueA02
+    m_Weight: 1
+  - m_Path: Bip_Horrificator/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Neck/Bip001
+      Head/Bn_HeadR_GlueA01/Bn_HeadR_GlueA02/Bn_HeadR_GlueA03
+    m_Weight: 1
+  - m_Path: Bip_Horrificator/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Neck/Bip001
+      Head/Bn_HeadR_GlueA01/Bn_HeadR_GlueA02/Bn_HeadR_GlueA03/Be_HeadR_GlueANoob
+    m_Weight: 1
+  - m_Path: Bip_Horrificator/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Neck/Bip001
+      Head/Bn_HeadR_GlueB01
+    m_Weight: 1
+  - m_Path: Bip_Horrificator/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Neck/Bip001
+      Head/Bn_HeadR_GlueB01/Bn_HeadR_GlueB02
+    m_Weight: 1
+  - m_Path: Bip_Horrificator/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Neck/Bip001
+      Head/Bn_HeadR_GlueB01/Bn_HeadR_GlueB02/Be_HeadR_GlueB
+    m_Weight: 1
+  - m_Path: Bip_Horrificator/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Neck/Bip001
+      Head/Bn_MidDown_C01
+    m_Weight: 1
+  - m_Path: Bip_Horrificator/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Neck/Bip001
+      Head/Bn_MidDown_C01/Bn_MidDown_C02
+    m_Weight: 1
+  - m_Path: Bip_Horrificator/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Neck/Bip001
+      Head/Bn_MidDown_C01/Bn_MidDown_C02/Bn_MidDown_C03
+    m_Weight: 1
+  - m_Path: Bip_Horrificator/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Neck/Bip001
+      Head/Bn_MidDown_C01/Bn_MidDown_C02/Bn_MidDown_C03/Be_MidDown_CN
+    m_Weight: 1
+  - m_Path: Bip_Horrificator/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 R Clavicle
+    m_Weight: 1
+  - m_Path: Bip_Horrificator/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 R Clavicle/Bip001
+      R UpperArm
+    m_Weight: 1
+  - m_Path: Bip_Horrificator/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 R Clavicle/Bip001
+      R UpperArm/Bip001 R Forearm
+    m_Weight: 1
+  - m_Path: Bip_Horrificator/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 R Clavicle/Bip001
+      R UpperArm/Bip001 R Forearm/Bip001 R Hand
+    m_Weight: 1
+  - m_Path: Bip_Horrificator/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 R Clavicle/Bip001
+      R UpperArm/Bip001 R Forearm/Bip001 R Hand/Bip001 R Finger0
+    m_Weight: 1
+  - m_Path: Bip_Horrificator/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 R Clavicle/Bip001
+      R UpperArm/Bip001 R Forearm/Bip001 R Hand/Bip001 R Finger0/Bip001 R Finger01
+    m_Weight: 1
+  - m_Path: Bip_Horrificator/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 R Clavicle/Bip001
+      R UpperArm/Bip001 R Forearm/Bip001 R Hand/Bip001 R Finger1
+    m_Weight: 1
+  - m_Path: Bip_Horrificator/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 R Clavicle/Bip001
+      R UpperArm/Bip001 R Forearm/Bip001 R Hand/Bip001 R Finger1/Bip001 R Finger11
+    m_Weight: 1
+  - m_Path: Bip_Horrificator/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 R Clavicle/Bip001
+      R UpperArm/Bip001 R Forearm/Bip001 R Hand/Bip001 R Finger2
+    m_Weight: 1
+  - m_Path: Bip_Horrificator/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 R Clavicle/Bip001
+      R UpperArm/Bip001 R Forearm/Bip001 R Hand/Bip001 R Finger2/Bip001 R Finger21
+    m_Weight: 1
+  - m_Path: Bip_Horrificator/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 R Clavicle/Bip001
+      R UpperArm/Bip001 R Forearm/Bip001 R Hand/Bip001 R Finger3
+    m_Weight: 1
+  - m_Path: Bip_Horrificator/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 R Clavicle/Bip001
+      R UpperArm/Bip001 R Forearm/Bip001 R Hand/Bip001 R Finger3/Bip001 R Finger31
+    m_Weight: 1
+  - m_Path: Bip_Horrificator/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 R Clavicle/Bip001
+      R UpperArm/Bip001 R Forearm/Bip001 R Hand/Bip001 R Finger4
+    m_Weight: 1
+  - m_Path: Bip_Horrificator/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 R Clavicle/Bip001
+      R UpperArm/Bip001 R Forearm/Bip001 R Hand/Bip001 R Finger4/Bip001 R Finger41
+    m_Weight: 1
+  - m_Path: Bip_Horrificator/Bip001 Pelvis/Bip_Horrificator Ponytail1
+    m_Weight: 1
+  - m_Path: Bip_Horrificator/Bip001 Pelvis/Bip_Horrificator Ponytail1/Bip_Horrificator
+      Ponytail11
+    m_Weight: 1
+  - m_Path: Bip_Horrificator/Bip001 Pelvis/Bip_Horrificator Ponytail1/Bip_Horrificator
+      Ponytail11/Bip_Horrificator Ponytail12
+    m_Weight: 1
+  - m_Path: Bip_Horrificator/Bip001 Pelvis/Bip_Horrificator Ponytail1/Bip_Horrificator
+      Ponytail11/Bip_Horrificator Ponytail12/Bip_Horrificator Ponytail13
+    m_Weight: 1
+  - m_Path: Bip_Horrificator/Bip001 Pelvis/Bip_Horrificator Ponytail1/Bip_Horrificator
+      Ponytail11/Bip_Horrificator Ponytail12/Bip_Horrificator Ponytail13/Bip_Horrificator
+      Ponytail14
+    m_Weight: 1
+  - m_Path: Bip_Horrificator/Bip001 Pelvis/Bip_Horrificator Ponytail1/Bip_Horrificator
+      Ponytail11/Bip_Horrificator Ponytail12/Bip_Horrificator Ponytail13/Bip_Horrificator
+      Ponytail14/Bip_Horrificator Ponytail15
+    m_Weight: 1
+  - m_Path: Bip_Horrificator/Bip001 Pelvis/Bip_Horrificator Ponytail1/Bip_Horrificator
+      Ponytail11/Bip_Horrificator Ponytail12/Bip_Horrificator Ponytail13/Bip_Horrificator
+      Ponytail14/Bip_Horrificator Ponytail15/Bip_Horrificator Ponytail16
+    m_Weight: 1
+  - m_Path: Bip_Horrificator/Bip001 Pelvis/Bip_Horrificator Ponytail1/Bip_Horrificator
+      Ponytail11/Bip_Horrificator Ponytail12/Bip_Horrificator Ponytail13/Bip_Horrificator
+      Ponytail14/Bip_Horrificator Ponytail15/Bip_Horrificator Ponytail16/Bip_Horrificator
+      Ponytail17
+    m_Weight: 1
+  - m_Path: Bip_Horrificator/Bip001 Pelvis/Bip_Horrificator Ponytail1/Bip_Horrificator
+      Ponytail11/Bip_Horrificator Ponytail12/Bip_Horrificator Ponytail13/Bip_Horrificator
+      Ponytail14/Bip_Horrificator Ponytail15/Bip_Horrificator Ponytail16/Bip_Horrificator
+      Ponytail17/Bip_Horrificator Ponytail18
+    m_Weight: 1
+  - m_Path: Bip_Horrificator/Bip001 Pelvis/Bip_Horrificator Ponytail1/Bip_Horrificator
+      Ponytail11/Bip_Horrificator Ponytail12/Bip_Horrificator Ponytail13/Bip_Horrificator
+      Ponytail14/Bip_Horrificator Ponytail15/Bip_Horrificator Ponytail16/Bip_Horrificator
+      Ponytail17/Bip_Horrificator Ponytail18/Bip_Horrificator Ponytail19
+    m_Weight: 1
+  - m_Path: Bip_Horrificator/Bip001 Pelvis/Bip_Horrificator Ponytail1/Bip_Horrificator
+      Ponytail11/Bip_Horrificator Ponytail12/Bip_Horrificator Ponytail13/Bip_Horrificator
+      Ponytail14/Bip_Horrificator Ponytail15/Bip_Horrificator Ponytail16/Bip_Horrificator
+      Ponytail17/Bip_Horrificator Ponytail18/Bip_Horrificator Ponytail19/Bip_Horrificator
+      Ponytail110
+    m_Weight: 1
+  - m_Path: Bip_Horrificator/Bip001 Pelvis/Bip_Horrificator Ponytail1/Bip_Horrificator
+      Ponytail11/Bip_Horrificator Ponytail12/Bip_Horrificator Ponytail13/Bip_Horrificator
+      Ponytail14/Bip_Horrificator Ponytail15/Bip_Horrificator Ponytail16/Bip_Horrificator
+      Ponytail17/Bip_Horrificator Ponytail18/Bip_Horrificator Ponytail19/Bip_Horrificator
+      Ponytail110/Bip_Horrificator Ponytail111
+    m_Weight: 1
+  - m_Path: Bip_Horrificator/Bip001 Pelvis/Bip_Horrificator Ponytail1/Bip_Horrificator
+      Ponytail11/Bip_Horrificator Ponytail12/Bip_Horrificator Ponytail13/Bip_Horrificator
+      Ponytail14/Bip_Horrificator Ponytail15/Bip_Horrificator Ponytail16/Bip_Horrificator
+      Ponytail17/Bip_Horrificator Ponytail18/Bip_Horrificator Ponytail19/Bip_Horrificator
+      Ponytail110/Bip_Horrificator Ponytail111/Bip_Horrificator Ponytail112
+    m_Weight: 1
+  - m_Path: Terrificator_body_low
+    m_Weight: 1

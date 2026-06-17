@@ -1,0 +1,175 @@
+fileFormatVersion: 2
+guid: bdcb1320598de224680cc0db276b1e47
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Chunk03_tunnel_buildings
+    100002: Chunk03_tunnel_streetAssets
+    100004: //RootNode
+    100006: Chunk02_Street
+    100008: Chunk03_tunnel
+    100010: Mesh
+    100012: Chunk03_tunnel _Middle
+    100014: Chunk03_tunnel _Right
+    100016: Chunk03_tunnel_Building
+    100018: Chunk03_tunnel_Large_Left
+    100020: Chunk03_tunnel_Large_Right
+    100022: Chunk03_tunnel_Left
+    100024: Chunk03_Tunnel_Posters
+    400000: Chunk03_tunnel_buildings
+    400002: Chunk03_tunnel_streetAssets
+    400004: //RootNode
+    400006: Chunk02_Street
+    400008: Chunk03_tunnel
+    400010: Mesh
+    400012: Chunk03_tunnel _Middle
+    400014: Chunk03_tunnel _Right
+    400016: Chunk03_tunnel_Building
+    400018: Chunk03_tunnel_Large_Left
+    400020: Chunk03_tunnel_Large_Right
+    400022: Chunk03_tunnel_Left
+    400024: Chunk03_Tunnel_Posters
+    2300000: Chunk03_tunnel_buildings
+    2300002: Chunk03_tunnel_streetAssets
+    2300004: Chunk02_Street
+    2300006: Chunk03_tunnel
+    2300008: Mesh
+    2300010: Chunk03_tunnel _Middle
+    2300012: Chunk03_tunnel _Right
+    2300014: Chunk03_tunnel_Building
+    2300016: Chunk03_tunnel_Large_Left
+    2300018: Chunk03_tunnel_Large_Right
+    2300020: Chunk03_tunnel_Left
+    2300022: Chunk03_Tunnel_Posters
+    3300000: Chunk03_tunnel_buildings
+    3300002: Chunk03_tunnel_streetAssets
+    3300004: Chunk02_Street
+    3300006: Chunk03_tunnel
+    3300008: Mesh
+    3300010: Chunk03_tunnel _Middle
+    3300012: Chunk03_tunnel _Right
+    3300014: Chunk03_tunnel_Building
+    3300016: Chunk03_tunnel_Large_Left
+    3300018: Chunk03_tunnel_Large_Right
+    3300020: Chunk03_tunnel_Left
+    3300022: Chunk03_Tunnel_Posters
+    4300000: Chunk03_tunnel_buildings
+    4300002: Chunk03_tunnel_streetAssets
+    4300004: Chunk03_tunnel
+    4300006: Chunk02_Street
+    4300008: Mesh
+    4300010: Chunk03_tunnel_Large_Left
+    4300012: Chunk03_tunnel_Large_Right
+    4300014: Chunk03_tunnel_Left
+    4300016: Chunk03_tunnel_Building
+    4300018: Chunk03_tunnel _Middle
+    4300020: Chunk03_Tunnel_Posters
+    4300022: Chunk03_tunnel _Right
+    2186277476908879412: ImportLogs
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MapPosters
+    second: {fileID: 2100000, guid: a1ec16429d53b2141a96f1c014b27e41, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Street
+    second: {fileID: 2100000, guid: ca395c9aeae5dec419676f88b0bf8986, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TunnelBuildings
+    second: {fileID: 2100000, guid: 0e17fc81480027d4b865b918742a6a98, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TunnelSidewalk
+    second: {fileID: 2100000, guid: df76e350e3e931340bbb9dff8b103b29, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TunnelStreetAssets
+    second: {fileID: 2100000, guid: 5ff30269785b7974fa1e580e18e71093, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 0
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 0
+    normalCalculationMode: 0
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

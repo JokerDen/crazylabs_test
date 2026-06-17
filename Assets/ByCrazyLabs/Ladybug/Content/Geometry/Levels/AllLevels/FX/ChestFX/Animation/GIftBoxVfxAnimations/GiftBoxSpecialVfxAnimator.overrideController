@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: GiftBoxSpecialVfxAnimator
+  m_Controller: {fileID: 9100000, guid: c8fef83ae77f94685a42950cdeabee9c, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: 2abcefd870801384787dd82d14943bcf, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 164e19427141a448b95f1f575b3e3ca3, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 5026947c395d1de46abf361c6af54700, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: c91c1b48a03b84898936f17c11661759, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: fd5bd419fe992b04d8daecb38f663f5d, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 4f080035275ff459da2eeafd0da18244, type: 2}

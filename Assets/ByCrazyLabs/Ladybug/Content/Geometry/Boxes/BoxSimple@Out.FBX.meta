@@ -1,0 +1,181 @@
+fileFormatVersion: 2
+guid: 77dfb5dbf61c3fa448ec795de5728627
+timeCreated: 1507289600
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Capac
+    100004: CapacTop
+    100006: CapatFundaLeft
+    100008: CapatFundaRight
+    100010: CutieBaza
+    100012: CutieMisloc
+    100014: CutieSus
+    100016: FundaLeft
+    100018: FundaLeft_b
+    100020: FundaRight
+    100022: FundaRight_b
+    100024: Gift_box_base
+    100026: Gift_box_cover
+    400000: //RootNode
+    400002: Capac
+    400004: CapacTop
+    400006: CapatFundaLeft
+    400008: CapatFundaRight
+    400010: CutieBaza
+    400012: CutieMisloc
+    400014: CutieSus
+    400016: FundaLeft
+    400018: FundaLeft_b
+    400020: FundaRight
+    400022: FundaRight_b
+    400024: Gift_box_base
+    400026: Gift_box_cover
+    4300000: Gift_box_base
+    4300002: Gift_box_cover
+    7400000: Out
+    7400002: Out0
+    9500000: //RootNode
+    13700000: Gift_box_base
+    13700002: Gift_box_cover
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 01 - Default
+    second: {fileID: 2100000, guid: c4c3ed014443e044597c4e41a6ea4af3, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Out
+      takeName: Take 001
+      firstFrame: 73
+      lastFrame: 130
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: CutieBaza
+        weight: 1
+      - path: CutieBaza/Capac
+        weight: 1
+      - path: CutieBaza/Capac/CapacTop
+        weight: 1
+      - path: CutieBaza/Capac/CapacTop/CapatFundaLeft
+        weight: 1
+      - path: CutieBaza/Capac/CapacTop/CapatFundaRight
+        weight: 1
+      - path: CutieBaza/Capac/CapacTop/FundaLeft
+        weight: 1
+      - path: CutieBaza/Capac/CapacTop/FundaLeft_b
+        weight: 1
+      - path: CutieBaza/Capac/CapacTop/FundaRight
+        weight: 1
+      - path: CutieBaza/Capac/CapacTop/FundaRight_b
+        weight: 1
+      - path: CutieBaza/CutieMisloc
+        weight: 1
+      - path: CutieBaza/CutieMisloc/CutieSus
+        weight: 1
+      - path: Gift_box_base
+        weight: 1
+      - path: Gift_box_cover
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 0
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 2
+    tangentImportMode: 2
+    normalCalculationMode: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

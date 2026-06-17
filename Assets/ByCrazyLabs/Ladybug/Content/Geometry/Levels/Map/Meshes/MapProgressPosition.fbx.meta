@@ -1,0 +1,177 @@
+fileFormatVersion: 2
+guid: 1697f0cb3018bbf45a09ae7e19b8a989
+timeCreated: 1497442245
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: ProgressBase
+    100004: ProgressButterfly
+    100006: ProgressSelected
+    100008: ProgressButterflyOFF
+    100010: ProgressButterflyON
+    100012: ProgressButterflyOFF_01
+    100014: ProgressButterflyOFF_02
+    100016: ProgressButterflyOFF_03
+    100018: ProgressButterflyON_01
+    100020: ProgressButterflyON_02
+    100022: ProgressButterflyON_03
+    400000: //RootNode
+    400002: ProgressBase
+    400004: ProgressButterfly
+    400006: ProgressSelected
+    400008: ProgressButterflyOFF
+    400010: ProgressButterflyON
+    400012: ProgressButterflyOFF_01
+    400014: ProgressButterflyOFF_02
+    400016: ProgressButterflyOFF_03
+    400018: ProgressButterflyON_01
+    400020: ProgressButterflyON_02
+    400022: ProgressButterflyON_03
+    2300000: ProgressBase
+    2300002: ProgressButterfly
+    2300004: ProgressSelected
+    2300006: ProgressButterflyOFF
+    2300008: ProgressButterflyON
+    2300010: ProgressButterflyOFF_01
+    2300012: ProgressButterflyOFF_02
+    2300014: ProgressButterflyOFF_03
+    2300016: ProgressButterflyON_01
+    2300018: ProgressButterflyON_02
+    2300020: ProgressButterflyON_03
+    2300022: //RootNode
+    3300000: ProgressBase
+    3300002: ProgressButterfly
+    3300004: ProgressSelected
+    3300006: ProgressButterflyOFF
+    3300008: ProgressButterflyON
+    3300010: ProgressButterflyOFF_01
+    3300012: ProgressButterflyOFF_02
+    3300014: ProgressButterflyOFF_03
+    3300016: ProgressButterflyON_01
+    3300018: ProgressButterflyON_02
+    3300020: ProgressButterflyON_03
+    3300022: //RootNode
+    4300000: ProgressButterfly
+    4300002: ProgressSelected
+    4300004: ProgressBase
+    4300006: ProgressButterflyOFF
+    4300008: ProgressButterflyON
+    4300010: ProgressButterflyON_02
+    4300012: ProgressButterflyOFF_03
+    4300014: ProgressButterflyON_03
+    4300016: ProgressButterflyOFF_01
+    4300018: ProgressButterflyON_01
+    4300020: ProgressButterflyOFF_02
+    4300022: MapProgress
+    4300024: Map Progress
+    4300026: Road Plane
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MapBuildingsSeparator
+    second: {fileID: 2100000, guid: 882f794f9f3164c449583129f4ccc3fc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MapPosters
+    second: {fileID: 2100000, guid: b54ec3d31e7ef9340a2a843c03786d9b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MapRoadsSeparator
+    second: {fileID: 2100000, guid: 5ea9858efb5d81c4186de04932c64bca, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MapTerrainGreenSeparator
+    second: {fileID: 2100000, guid: f2153f48cbd21a940a2a5520192cff64, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MapTerrainSeparator
+    second: {fileID: 2100000, guid: f92df05b63468e24c8c3dfb31e4c3f24, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MapTreesSeparator
+    second: {fileID: 2100000, guid: 410a0dc39d2d9664ebd74757997d24d2, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 1
+    addColliders: 0
+    importVisibility: 0
+    importBlendShapes: 0
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 2
+    tangentImportMode: 2
+    normalCalculationMode: 0
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
