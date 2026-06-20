@@ -6,13 +6,14 @@ namespace SlingshotRunner
     public sealed class GameConfig : ScriptableObject
     {
         [Header("Economy")]
-        [SerializeField] private int startingCurrency = 50;
-        [SerializeField] private float metersPerDistanceCoin = 10f;
+        [SerializeField] private int startingCurrency = 150;
+        [SerializeField] private float metersPerDistanceCoin = 1f;
+        [SerializeField] private float distanceCoinMultiplier = 5f;
         [SerializeField] private UpgradePricing[] upgradePricing =
         {
-            new UpgradePricing { type = UpgradeType.ShotPower, basePrice = 25, priceMultiplier = 1.65f, maxLevel = 12 },
-            new UpgradePricing { type = UpgradeType.SlideAbility, basePrice = 30, priceMultiplier = 1.6f, maxLevel = 12 },
-            new UpgradePricing { type = UpgradeType.IncomeMultiplier, basePrice = 40, priceMultiplier = 1.7f, maxLevel = 10 }
+            new UpgradePricing { type = UpgradeType.ShotPower, basePrice = 100, priceMultiplier = 1.65f, maxLevel = 12 },
+            new UpgradePricing { type = UpgradeType.SlideAbility, basePrice = 100, priceMultiplier = 1.6f, maxLevel = 12 },
+            new UpgradePricing { type = UpgradeType.IncomeMultiplier, basePrice = 100, priceMultiplier = 1.7f, maxLevel = 10 }
         };
 
         [Header("Input")]
@@ -25,6 +26,7 @@ namespace SlingshotRunner
         public float LaunchThreshold => Mathf.Clamp01(launchThreshold);
         public float TapMoveTolerancePixels => Mathf.Max(0f, tapMoveTolerancePixels);
         public float MetersPerDistanceCoin => Mathf.Max(1f, metersPerDistanceCoin);
+        public float DistanceCoinMultiplier => Mathf.Max(0f, distanceCoinMultiplier);
         public UpgradePricing[] UpgradePricing => upgradePricing;
     }
 }

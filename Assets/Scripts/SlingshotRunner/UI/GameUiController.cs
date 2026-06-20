@@ -16,6 +16,7 @@ namespace SlingshotRunner
         [SerializeField] private TMP_Text currencyText;
         [SerializeField] private TMP_Text powerText;
         [SerializeField] private TMP_Text runningText;
+        [SerializeField] private TMP_Text speedText;
         [SerializeField] private TMP_Text runEndedText;
         [SerializeField] private TMP_Text tapToPlayText;
         [SerializeField] private TMP_Text backButtonText;
@@ -113,11 +114,16 @@ namespace SlingshotRunner
             }
         }
 
-        public void RenderRunning(float distanceMeters, int earnedCoins)
+        public void RenderRunning(float distanceMeters, int earnedCoins, float speedMetersPerSecond)
         {
             if (runningText != null)
             {
                 runningText.text = Texts.Format(TextKey.RunningHudFormat, Mathf.RoundToInt(distanceMeters), earnedCoins);
+            }
+
+            if (speedText != null)
+            {
+                speedText.text = Texts.Format(TextKey.SpeedometerFormat, Mathf.Max(0f, speedMetersPerSecond));
             }
         }
 

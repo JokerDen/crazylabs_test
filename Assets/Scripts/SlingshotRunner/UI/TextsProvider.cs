@@ -18,6 +18,7 @@ namespace SlingshotRunner
         UpgradeMaxPrice,
         PowerFormat,
         RunningHudFormat,
+        SpeedometerFormat,
         RunEndedFormat
     }
 
@@ -44,6 +45,7 @@ namespace SlingshotRunner
                 { TextKey.UpgradeMaxPrice, "MAX" },
                 { TextKey.PowerFormat, "POWER {0}%" },
                 { TextKey.RunningHudFormat, "{0} m   <sprite=0> {1}" },
+                { TextKey.SpeedometerFormat, "SPEED {0:0.0} m/s" },
                 { TextKey.RunEndedFormat, "EARNED <sprite=0> {0}\nDISTANCE {1} m" }
             };
 

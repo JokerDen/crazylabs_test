@@ -12,19 +12,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: da839dbd2df3476bad48e756288bfd64, type: 3}
   m_Name: SlingshotRunnerGameConfig
   m_EditorClassIdentifier: 
-  startingCurrency: 50
-  metersPerDistanceCoin: 10
+  startingCurrency: 0
+  metersPerDistanceCoin: 1
+  distanceCoinMultiplier: 5
   upgradePricing:
   - type: 0
-    basePrice: 25
+    basePrice: 100
     priceMultiplier: 1.65
     maxLevel: 12
   - type: 1
-    basePrice: 30
+    basePrice: 100
     priceMultiplier: 1.6
     maxLevel: 12
   - type: 2
-    basePrice: 40
+    basePrice: 100
     priceMultiplier: 1.7
     maxLevel: 10
   dragPixelsForFullPower: 330

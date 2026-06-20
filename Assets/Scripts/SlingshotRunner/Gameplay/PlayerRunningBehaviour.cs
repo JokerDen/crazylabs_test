@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.Serialization;
 
 namespace SlingshotRunner
 {
@@ -12,20 +13,52 @@ namespace SlingshotRunner
         [SerializeField] private CapsuleCollider capsule;
 
         [Header("Running")]
-        [SerializeField] private float lateralAcceleration = 24f;
-        [SerializeField] private float maxLateralSpeed = 4.8f;
-        [SerializeField] private float laneLimit = 4f;
-        [SerializeField] private float baseLinearDamping = 0.45f;
-        [SerializeField] private float slideDampingReductionPerLevel = 0.055f;
-        [SerializeField] private float minLinearDamping = 0.05f;
+        [SerializeField] private float lateralAcceleration = 42f;
+        [SerializeField] private float lateralReleaseDeceleration = 28f;
+        [SerializeField] private float maxSteeringYawDegrees = 45f;
         [SerializeField] private float stopSpeed = 0.32f;
         [SerializeField] private float stopHoldSeconds = 0.9f;
         [SerializeField] private float stopGraceSeconds = 1.2f;
 
+        [Header("Slide Friction")]
+        [SerializeField] private PhysicsMaterial slidePhysicsMaterial;
+        [FormerlySerializedAs("baseZFriction")]
+        [FormerlySerializedAs("baseLinearDamping")]
+        [SerializeField] private float baseSlideFriction = 0.3f;
+        [FormerlySerializedAs("zFrictionReductionPerLevel")]
+        [FormerlySerializedAs("slideDampingReductionPerLevel")]
+        [SerializeField] private float slideFrictionReductionPerLevel = 0.025f;
+        [SerializeField] private float distanceFrictionPerMeter = 0.002f;
+        [FormerlySerializedAs("minZFriction")]
+        [FormerlySerializedAs("minLinearDamping")]
+        [SerializeField] private float minSlideFriction = 0.015f;
+        [SerializeField] private float maxSlideFriction = 4f;
+
+        [Header("Hidden Stop")]
+        [SerializeField] private float hiddenStopFrictionMultiplier = 0.75f;
+
         private float steerInput;
         private float stoppedTimer;
         private float launchedAt;
+        private float launchZ;
+        private float currentSlideFriction;
+        private int currentSlideUpgradeCount;
+        private PhysicsMaterial runtimeSlideMaterial;
         private bool isRunning;
+        private Vector3 launchHorizontalDirection = Vector3.forward;
+
+        public float Speed
+        {
+            get
+            {
+                if (body == null || body.isKinematic)
+                {
+                    return 0f;
+                }
+
+                return new Vector2(body.linearVelocity.x, body.linearVelocity.z).magnitude;
+            }
+        }
 
         private void Reset()
         {
@@ -44,8 +77,11 @@ namespace SlingshotRunner
                 return;
             }
 
-            ApplySteeringDirection(steerInput, lateralAcceleration);
-            ApplyLaneCorrection();
+            UpdateSlideFriction();
+            ApplyHiddenStopFriction();
+            ApplyVelocityRotationControl(
+                steerInput,
+                Mathf.Abs(steerInput) > 0.01f ? lateralAcceleration : lateralReleaseDeceleration);
             UpdateStoppedTimer();
         }
 
@@ -56,6 +92,10 @@ namespace SlingshotRunner
             steerInput = 0f;
             stoppedTimer = 0f;
             launchedAt = 0f;
+            launchZ = transform.position.z;
+            launchHorizontalDirection = FlattenDirection(transform.forward);
+            currentSlideFriction = 0f;
+            currentSlideUpgradeCount = 0;
 
             if (body == null)
             {
@@ -69,7 +109,7 @@ namespace SlingshotRunner
             ApplyDefaultBodySettings();
         }
 
-        public bool PrepareForLaunch(int slideAbilityLevel)
+        public bool PrepareForLaunch(int slideUpgradeCount)
         {
             CacheReferences();
             if (body == null)
@@ -80,20 +120,23 @@ namespace SlingshotRunner
             isRunning = false;
             steerInput = 0f;
             stoppedTimer = 0f;
+            launchZ = transform.position.z;
+            currentSlideUpgradeCount = Mathf.Max(0, slideUpgradeCount);
+            currentSlideFriction = CalculateSlideFriction(currentSlideUpgradeCount, 0f);
 
             body.isKinematic = false;
             body.useGravity = true;
-            body.linearDamping = Mathf.Max(minLinearDamping, baseLinearDamping - slideAbilityLevel * slideDampingReductionPerLevel);
             body.angularDamping = 3f;
             body.linearVelocity = Vector3.zero;
             body.angularVelocity = Vector3.zero;
             ApplyDefaultBodySettings();
-            ApplySlideFriction(slideAbilityLevel);
+            ApplySlideMaterialFriction(currentSlideFriction);
             return true;
         }
 
-        public void BeginRun()
+        public void BeginRun(Vector3 launchVelocity)
         {
+            launchHorizontalDirection = FlattenDirection(launchVelocity);
             launchedAt = Time.time;
             stoppedTimer = 0f;
             isRunning = true;
@@ -163,19 +206,15 @@ namespace SlingshotRunner
 
         private void ApplyDefaultBodySettings()
         {
+            body.linearDamping = 0f;
             body.interpolation = RigidbodyInterpolation.Interpolate;
             body.collisionDetectionMode = CollisionDetectionMode.ContinuousDynamic;
             body.constraints = RigidbodyConstraints.FreezeRotation;
         }
 
-        private void ApplySteeringDirection(float input, float changeRate)
+        private void ApplyVelocityRotationControl(float input, float changeRate)
         {
             float steering = Mathf.Clamp(input, -1f, 1f);
-            if (Mathf.Abs(steering) <= 0.01f)
-            {
-                return;
-            }
-
             Vector3 velocity = body.linearVelocity;
             Vector3 horizontalVelocity = new Vector3(velocity.x, 0f, velocity.z);
             float horizontalSpeed = horizontalVelocity.magnitude;
@@ -184,35 +223,32 @@ namespace SlingshotRunner
                 return;
             }
 
-            float targetX = Mathf.Clamp(steering * maxLateralSpeed, -horizontalSpeed, horizontalSpeed);
-            float targetZSign = velocity.z < -0.01f ? -1f : 1f;
-            float targetZ = Mathf.Sqrt(Mathf.Max(0f, horizontalSpeed * horizontalSpeed - targetX * targetX)) * targetZSign;
-            Vector3 targetHorizontalVelocity = new Vector3(targetX, 0f, targetZ);
-            Vector3 steeredHorizontalVelocity = Vector3.MoveTowards(
-                horizontalVelocity,
-                targetHorizontalVelocity,
-                Mathf.Max(0f, changeRate) * Time.fixedDeltaTime);
+            Vector3 baseDirection = launchHorizontalDirection.sqrMagnitude > 0.0001f
+                ? launchHorizontalDirection.normalized
+                : horizontalVelocity / horizontalSpeed;
+            Vector3 targetDirection = Quaternion.AngleAxis(steering * maxSteeringYawDegrees, Vector3.up) * baseDirection;
+            Vector3 currentDirection = horizontalVelocity / horizontalSpeed;
+            float maxRadiansDelta = Mathf.Max(0f, changeRate) * Mathf.Deg2Rad * Time.fixedDeltaTime;
+            Vector3 rotatedHorizontalVelocity = Vector3.RotateTowards(
+                currentDirection,
+                targetDirection,
+                maxRadiansDelta,
+                0f) * horizontalSpeed;
 
-            if (steeredHorizontalVelocity.sqrMagnitude > 0.0001f)
-            {
-                steeredHorizontalVelocity = steeredHorizontalVelocity.normalized * horizontalSpeed;
-            }
-
-            velocity.x = steeredHorizontalVelocity.x;
-            velocity.z = steeredHorizontalVelocity.z;
+            velocity.x = rotatedHorizontalVelocity.x;
+            velocity.z = rotatedHorizontalVelocity.z;
             body.linearVelocity = velocity;
         }
 
-        private void ApplyLaneCorrection()
+        private static Vector3 FlattenDirection(Vector3 direction)
         {
-            float x = transform.position.x;
-            if (Mathf.Abs(x) <= laneLimit)
+            direction.y = 0f;
+            if (direction.sqrMagnitude <= 0.0001f)
             {
-                return;
+                return Vector3.forward;
             }
 
-            float directionToCenter = -Mathf.Sign(x);
-            ApplySteeringDirection(directionToCenter, lateralAcceleration * 1.4f);
+            return direction.normalized;
         }
 
         private void UpdateStoppedTimer()
@@ -228,19 +264,93 @@ namespace SlingshotRunner
             }
         }
 
-        private void ApplySlideFriction(int slideAbilityLevel)
+        private void UpdateSlideFriction()
+        {
+            currentSlideFriction = CalculateSlideFriction(currentSlideUpgradeCount, GetZDistanceFromLaunch());
+            ApplySlideMaterialFriction(currentSlideFriction);
+        }
+
+        private void ApplyHiddenStopFriction()
+        {
+            float stopFriction = currentSlideFriction * hiddenStopFrictionMultiplier;
+            if (stopFriction <= 0f)
+            {
+                return;
+            }
+
+            Vector3 velocity = body.linearVelocity;
+            if (Mathf.Abs(velocity.z) <= 0.001f)
+            {
+                return;
+            }
+
+            float zDamping = 1f - Mathf.Exp(-stopFriction * Time.fixedDeltaTime);
+            velocity.z = Mathf.MoveTowards(velocity.z, 0f, Mathf.Abs(velocity.z) * zDamping);
+            body.linearVelocity = velocity;
+        }
+
+        private float CalculateSlideFriction(int slideUpgradeCount, float distanceMeters)
+        {
+            float upgradeReduction = Mathf.Max(0, slideUpgradeCount) * slideFrictionReductionPerLevel;
+            float distanceFriction = Mathf.Max(0f, distanceMeters) * distanceFrictionPerMeter;
+            float friction = baseSlideFriction - upgradeReduction + distanceFriction;
+            return Mathf.Clamp(friction, minSlideFriction, maxSlideFriction);
+        }
+
+        private float GetZDistanceFromLaunch()
+        {
+            return Mathf.Max(0f, transform.position.z - launchZ);
+        }
+
+        private void ApplySlideMaterialFriction(float friction)
         {
             if (capsule == null)
             {
                 return;
             }
 
-            PhysicsMaterial material = capsule.material;
-            float friction = Mathf.Clamp01(0.62f - slideAbilityLevel * 0.075f);
-            material.dynamicFriction = friction;
-            material.staticFriction = friction;
-            material.bounciness = 0f;
-            material.frictionCombine = PhysicsMaterialCombine.Minimum;
+            EnsureRuntimeSlideMaterial();
+            if (runtimeSlideMaterial == null)
+            {
+                return;
+            }
+
+            float clampedFriction = Mathf.Max(0f, friction);
+            runtimeSlideMaterial.dynamicFriction = clampedFriction;
+            runtimeSlideMaterial.staticFriction = clampedFriction;
+            runtimeSlideMaterial.bounciness = 0f;
+            runtimeSlideMaterial.frictionCombine = PhysicsMaterialCombine.Average;
+            runtimeSlideMaterial.bounceCombine = PhysicsMaterialCombine.Minimum;
+            capsule.material = runtimeSlideMaterial;
+        }
+
+        private void EnsureRuntimeSlideMaterial()
+        {
+            if (runtimeSlideMaterial != null)
+            {
+                return;
+            }
+
+            runtimeSlideMaterial = slidePhysicsMaterial != null
+                ? Instantiate(slidePhysicsMaterial)
+                : new PhysicsMaterial("Player Slide Physics Runtime");
+            runtimeSlideMaterial.name = "Player Slide Physics Runtime";
+        }
+
+        private void OnValidate()
+        {
+            lateralAcceleration = Mathf.Max(0f, lateralAcceleration);
+            lateralReleaseDeceleration = Mathf.Max(0f, lateralReleaseDeceleration);
+            maxSteeringYawDegrees = Mathf.Max(0f, maxSteeringYawDegrees);
+            stopSpeed = Mathf.Max(0f, stopSpeed);
+            stopHoldSeconds = Mathf.Max(0f, stopHoldSeconds);
+            stopGraceSeconds = Mathf.Max(0f, stopGraceSeconds);
+            baseSlideFriction = Mathf.Max(0f, baseSlideFriction);
+            slideFrictionReductionPerLevel = Mathf.Max(0f, slideFrictionReductionPerLevel);
+            distanceFrictionPerMeter = Mathf.Max(0f, distanceFrictionPerMeter);
+            minSlideFriction = Mathf.Max(0f, minSlideFriction);
+            maxSlideFriction = Mathf.Max(minSlideFriction, maxSlideFriction);
+            hiddenStopFrictionMultiplier = Mathf.Max(0f, hiddenStopFrictionMultiplier);
         }
     }
 }

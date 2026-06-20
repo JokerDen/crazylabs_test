@@ -10,7 +10,7 @@ namespace SlingshotRunner
         [SerializeField] private Rigidbody body;
 
         [Header("Shot")]
-        [SerializeField] private float minShotSpeed = 7f;
+        [SerializeField] private float minShotSpeed = 1.125f;
         [SerializeField] private float maxShotSpeed = 30f;
         [SerializeField] private float shotPowerSpeedPerLevel = 2.25f;
         [SerializeField] private float upwardShotRatio = 0.16f;
@@ -39,8 +39,9 @@ namespace SlingshotRunner
                 spawnRotation);
         }
 
-        public bool Launch(Quaternion spawnRotation, float power, Vector2 pull, int shotPowerLevel)
+        public bool Launch(Quaternion spawnRotation, float power, Vector2 pull, int shotPowerLevel, out Vector3 launchVelocity)
         {
+            launchVelocity = Vector3.zero;
             CacheReferences();
             if (body == null)
             {
@@ -50,10 +51,12 @@ namespace SlingshotRunner
             float clampedPower = Mathf.Clamp01(power);
             Vector2 clampedPull = Vector2.ClampMagnitude(pull, 1f);
             Vector3 direction = GetShotDirection(spawnRotation, clampedPull);
-            float upgradedMaxSpeed = maxShotSpeed + shotPowerLevel * shotPowerSpeedPerLevel;
+            int shotPowerUpgradeCount = Mathf.Max(0, shotPowerLevel);
+            float upgradedMaxSpeed = maxShotSpeed + shotPowerUpgradeCount * shotPowerSpeedPerLevel;
             float speed = Mathf.Lerp(minShotSpeed, upgradedMaxSpeed, clampedPower);
 
-            body.AddForce(direction * speed, ForceMode.VelocityChange);
+            launchVelocity = direction * speed;
+            body.linearVelocity = launchVelocity;
             return true;
         }
 

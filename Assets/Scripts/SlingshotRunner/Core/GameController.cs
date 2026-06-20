@@ -1,11 +1,19 @@
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
+
+#if ENABLE_INPUT_SYSTEM
+using UnityEngine.InputSystem;
+#endif
 
 namespace SlingshotRunner
 {
     [DisallowMultipleComponent]
     public sealed class GameController : MonoBehaviour
     {
+        private const string BestDistanceKey = "SlingshotRunner.BestDistanceMeters";
+        private const float StartingBestDistanceMeters = 1f;
+
         [Header("Config")]
         [SerializeField] private GameConfig config;
 
@@ -15,6 +23,8 @@ namespace SlingshotRunner
         [SerializeField] private PointerInputArea inputArea;
         [SerializeField] private GameUiController uiController;
         [SerializeField] private CameraModeController cameraModeController;
+        [SerializeField] private SlingshotLineView slingshotLine;
+        [SerializeField] private BestDistanceMarker bestDistanceMarker;
         [SerializeField] private List<CollectibleCoin> coins = new List<CollectibleCoin>();
         [SerializeField] private List<Obstacle> obstacles = new List<Obstacle>();
 
@@ -22,6 +32,8 @@ namespace SlingshotRunner
         private EconomyService economy;
         private RunSession runSession;
         private ITextsProvider textsProvider;
+        private float bestDistanceMeters;
+        private bool bestDistanceDirty;
 
         private void Awake()
         {
@@ -34,7 +46,11 @@ namespace SlingshotRunner
 
             stateMachine = new GameStateMachine();
             textsProvider = new TextsProvider();
-            economy = new EconomyService(config.StartingCurrency, config.UpgradePricing, config.MetersPerDistanceCoin);
+            economy = new EconomyService(
+                config.StartingCurrency,
+                config.UpgradePricing,
+                config.MetersPerDistanceCoin,
+                config.DistanceCoinMultiplier);
             runSession = new RunSession();
 
             ServiceLocator.Register(stateMachine);
@@ -99,6 +115,8 @@ namespace SlingshotRunner
 
         private void OnDestroy()
         {
+            SaveBestDistanceIfDirty();
+
             ServiceLocator.Unregister(stateMachine);
             ServiceLocator.Unregister(textsProvider);
             ServiceLocator.Unregister(economy);
@@ -118,6 +136,8 @@ namespace SlingshotRunner
         private void Start()
         {
             economy.Load();
+            LoadBestDistance();
+            CacheRunObjects();
             ResetRunObjects();
             ResetPlayerToSpawn();
             EnterMenuState();
@@ -125,13 +145,25 @@ namespace SlingshotRunner
 
         private void Update()
         {
+            if (WasRestartPressed())
+            {
+                RestartActiveScene();
+                return;
+            }
+
+            if (WasClearPlayerPrefsPressed())
+            {
+                ClearPlayerPrefs();
+                return;
+            }
+
             if (!stateMachine.Is(GameState.Running) || player == null)
             {
                 return;
             }
 
             runSession.SetDistance(player.Distance);
-            uiController?.RenderRunning(runSession.DistanceMeters, runSession.EarnedCoins);
+            uiController?.RenderRunning(runSession.DistanceMeters, runSession.EarnedCoins, player.Speed);
 
             if (player.HasStopped())
             {
@@ -141,6 +173,7 @@ namespace SlingshotRunner
 
         private void HandleStateChanged(GameState previousState, GameState nextState)
         {
+            player?.SetViewState(nextState);
             uiController?.SetState(nextState);
 
             if (nextState != GameState.Running)
@@ -164,6 +197,7 @@ namespace SlingshotRunner
             {
                 uiController?.RenderPower(0f);
                 ResetPlayerToSpawn();
+                slingshotLine?.BeginAiming();
             }
         }
 
@@ -211,6 +245,7 @@ namespace SlingshotRunner
                 else
                 {
                     ResetPlayerToSpawn();
+                    slingshotLine?.BeginAiming();
                     uiController?.RenderPower(0f);
                 }
 
@@ -229,6 +264,7 @@ namespace SlingshotRunner
             stateMachine.SetState(GameState.Menu, true);
             inputArea?.Cancel();
             ResetPlayerToSpawn();
+            slingshotLine?.RenderAtRest();
             RenderEconomy();
         }
 
@@ -236,6 +272,7 @@ namespace SlingshotRunner
         {
             stateMachine.SetState(GameState.Aiming);
             ResetPlayerToSpawn();
+            slingshotLine?.BeginAiming();
             uiController?.RenderPower(0f);
         }
 
@@ -246,7 +283,8 @@ namespace SlingshotRunner
 
             uiController?.ResetJoystick();
             player.StartRun(power, pull, economy.ShotPowerBonusLevel, economy.SlideAbilityBonusLevel);
-            uiController?.RenderRunning(runSession.DistanceMeters, runSession.EarnedCoins);
+            slingshotLine?.BeginLaunchFollow();
+            uiController?.RenderRunning(runSession.DistanceMeters, runSession.EarnedCoins, player.Speed);
         }
 
         private void EnterRunEndedState()
@@ -254,6 +292,9 @@ namespace SlingshotRunner
             stateMachine.SetState(GameState.RunEnded);
             inputArea?.Cancel();
             player.StopPhysics();
+            slingshotLine?.RenderAtRest();
+            UpdateBestDistance(runSession.DistanceMeters);
+            SaveBestDistanceIfDirty();
             runSession.RefreshEarnings();
             uiController?.RenderRunEnded(runSession.EarnedCoins, runSession.DistanceMeters);
         }
@@ -280,6 +321,20 @@ namespace SlingshotRunner
 
             economy.TryPurchase(upgradeType);
             RenderEconomy();
+        }
+
+        private void ClearPlayerPrefs()
+        {
+            PlayerPrefs.DeleteAll();
+            PlayerPrefs.Save();
+
+            economy.Load();
+            ResetBestDistance();
+            runSession.Reset();
+            ResetRunObjects();
+            EnterMenuState();
+
+            Debug.Log("PlayerPrefs cleared.", this);
         }
 
         private Vector2 CalculatePull(Vector2 dragDelta)
@@ -336,12 +391,133 @@ namespace SlingshotRunner
             }
         }
 
+        private void CacheRunObjects()
+        {
+            if (coins == null)
+            {
+                coins = new List<CollectibleCoin>();
+            }
+
+            if (obstacles == null)
+            {
+                obstacles = new List<Obstacle>();
+            }
+
+            AddMissingSceneObjects(FindObjectsByType<CollectibleCoin>(FindObjectsInactive.Include, FindObjectsSortMode.None), coins);
+            AddMissingSceneObjects(FindObjectsByType<Obstacle>(FindObjectsInactive.Include, FindObjectsSortMode.None), obstacles);
+        }
+
+        private static void AddMissingSceneObjects<T>(T[] sceneObjects, List<T> target) where T : Object
+        {
+            for (int i = 0; i < sceneObjects.Length; i++)
+            {
+                T sceneObject = sceneObjects[i];
+                if (sceneObject != null && !target.Contains(sceneObject))
+                {
+                    target.Add(sceneObject);
+                }
+            }
+        }
+
+        private void LoadBestDistance()
+        {
+            bestDistanceMeters = Mathf.Max(StartingBestDistanceMeters, PlayerPrefs.GetFloat(BestDistanceKey, StartingBestDistanceMeters));
+            bestDistanceDirty = false;
+            bestDistanceMarker?.SetDistance(bestDistanceMeters);
+        }
+
+        private void UpdateBestDistance(float distanceMeters)
+        {
+            distanceMeters = Mathf.Max(0f, distanceMeters);
+            if (distanceMeters <= bestDistanceMeters)
+            {
+                return;
+            }
+
+            bestDistanceMeters = distanceMeters;
+            bestDistanceDirty = true;
+            PlayerPrefs.SetFloat(BestDistanceKey, bestDistanceMeters);
+            bestDistanceMarker?.SetDistance(bestDistanceMeters);
+        }
+
+        private void SaveBestDistanceIfDirty()
+        {
+            if (!bestDistanceDirty)
+            {
+                return;
+            }
+
+            PlayerPrefs.Save();
+            bestDistanceDirty = false;
+        }
+
+        private void ResetBestDistance()
+        {
+            bestDistanceMeters = StartingBestDistanceMeters;
+            bestDistanceDirty = false;
+            bestDistanceMarker?.SetDistance(bestDistanceMeters);
+        }
+
+        private void OnApplicationPause(bool pauseStatus)
+        {
+            if (pauseStatus)
+            {
+                SaveBestDistanceIfDirty();
+            }
+        }
+
         private void ResetPlayerToSpawn()
         {
             if (player != null && playerSpawn != null)
             {
                 player.ResetToSpawn(playerSpawn.position, playerSpawn.rotation);
             }
+        }
+
+        private static bool WasRestartPressed()
+        {
+#if ENABLE_INPUT_SYSTEM
+            Keyboard keyboard = Keyboard.current;
+            if (keyboard != null && keyboard.rKey.wasPressedThisFrame)
+            {
+                return true;
+            }
+#endif
+
+#if ENABLE_LEGACY_INPUT_MANAGER
+            return Input.GetKeyDown(KeyCode.R);
+#else
+            return false;
+#endif
+        }
+
+        private static bool WasClearPlayerPrefsPressed()
+        {
+#if ENABLE_INPUT_SYSTEM
+            Keyboard keyboard = Keyboard.current;
+            if (keyboard != null && keyboard.cKey.wasPressedThisFrame)
+            {
+                return true;
+            }
+#endif
+
+#if ENABLE_LEGACY_INPUT_MANAGER
+            return Input.GetKeyDown(KeyCode.C);
+#else
+            return false;
+#endif
+        }
+
+        private static void RestartActiveScene()
+        {
+            Scene activeScene = SceneManager.GetActiveScene();
+            if (!string.IsNullOrEmpty(activeScene.path))
+            {
+                SceneManager.LoadScene(activeScene.path);
+                return;
+            }
+
+            SceneManager.LoadScene(activeScene.buildIndex);
         }
     }
 }

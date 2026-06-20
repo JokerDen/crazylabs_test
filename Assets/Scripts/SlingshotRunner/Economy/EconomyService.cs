@@ -13,6 +13,7 @@ namespace SlingshotRunner
         private readonly int startingCurrency;
         private readonly UpgradePricing[] pricing;
         private readonly float metersPerDistanceCoin;
+        private readonly float distanceCoinMultiplier;
 
         private int currency;
         private int shotPowerLevel;
@@ -23,11 +24,12 @@ namespace SlingshotRunner
         public int ShotPowerBonusLevel => GetBonusLevel(shotPowerLevel);
         public int SlideAbilityBonusLevel => GetBonusLevel(slideAbilityLevel);
 
-        public EconomyService(int startingCurrency, UpgradePricing[] pricing, float metersPerDistanceCoin)
+        public EconomyService(int startingCurrency, UpgradePricing[] pricing, float metersPerDistanceCoin, float distanceCoinMultiplier)
         {
             this.startingCurrency = Mathf.Max(0, startingCurrency);
             this.pricing = pricing != null ? pricing : Array.Empty<UpgradePricing>();
             this.metersPerDistanceCoin = Mathf.Max(1f, metersPerDistanceCoin);
+            this.distanceCoinMultiplier = Mathf.Max(0f, distanceCoinMultiplier);
         }
 
         public void Load()
@@ -92,7 +94,7 @@ namespace SlingshotRunner
 
         public int CalculateRunEarnings(int collectedCoinValue, float distanceMeters)
         {
-            int distanceCoins = Mathf.FloorToInt(Mathf.Max(0f, distanceMeters) / metersPerDistanceCoin);
+            int distanceCoins = Mathf.FloorToInt(Mathf.Max(0f, distanceMeters) / metersPerDistanceCoin * distanceCoinMultiplier);
             int baseCoins = Mathf.Max(0, collectedCoinValue) + distanceCoins;
             float multiplier = 1f + GetBonusLevel(incomeMultiplierLevel) * 0.25f;
             return Mathf.RoundToInt(baseCoins * multiplier);
